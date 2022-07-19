@@ -1,6 +1,13 @@
 <template>
- <section id="about" class="about">
-    <div class="container  p-3" data-aos="zoom-in" data-aos-once="true">
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+  <h1>About myself hello</h1>
+
+ <div>
       <div class="row">
 <div class="col">
   <h2 class=" text-center p-5">About Me</h2>
@@ -11,17 +18,14 @@
 <div class=" pfp col"><img src="https://i.postimg.cc/vTsKz7T5/avatar.jpg" alt=""></div>
   </div>
 </div>
-    
-</section>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+name: "About",
+  };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

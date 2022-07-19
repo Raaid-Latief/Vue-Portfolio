@@ -1,15 +1,14 @@
 <template>
   <div>
-    <about />
-    <contact />
+    <Projects />
   </div>
 </template>
 <script>
-import About from "../components/About.vue";
+import Projects from "../components/Projects.vue";
 import Contact from "../components/Contact.vue";
 export default {
   components: {
-    About,
+    Projects,
     Contact
   },
 };

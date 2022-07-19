@@ -1,24 +1,49 @@
 <template>
+<br>
+<br>
+<br>
+  
   <div>
-     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-<h1>Hi, Im Raaid, Aspiring Web Developer</h1>
+<h1>Im Raaid, Aspiring Web Developer</h1>
+</div>
 <div>
  <button class="custom-btn btn-2">Take a tour!</button>
 </div>
-    </div>
+    
 </template>
 <script>
 </script>
 <style>
 
+
+
+
+
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+body {
+ background-image: url(https://i.postimg.cc/T1gnR51f/Greek-Bg.jpg);
+ background-attachment: fixed;
+    display: flex;
+    flex: wrap;
+   /* remove no-repeat to show bg */
+    background: no-repeat;
+    }
+
 h1{
     font-family: 'Playfair Display', serif;
-color: white;
+    color: #000; /* Fallback for older browsers */
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 100pt;
+
 }
 
 .buttons-coll {
@@ -27,23 +52,24 @@ color: white;
   text-align: center;
 }
 button {
-  margin: 20px;
+  margin: 50px;
 }
 .custom-btn {
   padding: 10px 25px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   background: transparent;
   outline: none !important;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 1.1s ease;
   position: relative;
   display: inline-block;
+  color: white;
 }
 .btn-2 {
   border: none;
-  border-bottom: 2px solid #000;
-  border-left: 2px solid #000;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
 }
 .btn-2:before,
 .btn-2:after {
@@ -51,7 +77,7 @@ button {
   content: "";
   right: 0;
   top: 0;
-  background: #000;
+  background: rgb(255, 255, 255);
   transition: all 0.3s ease;
 }
 .btn-2:before {
@@ -69,8 +95,8 @@ button {
   width: 100%;
 }
 
-
 </style>
+
 
 
 
