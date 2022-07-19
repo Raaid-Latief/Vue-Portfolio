@@ -22,16 +22,94 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+    <!--CONTACT-->
+<section id="contact" class="contact">
+  <div class="container p-5">
+    <div>
+      <h2 class="text-center text-danger">Questions?</h2>
+      <p class="text-center">Lets get in touch</p>
+    </div>
+
+
+    
+    <section id="booking" class="p-3">
+      <div class="row">
+
+     
+        <div class="col-md-9 mb-md-0 mb-5">
+          
+            <form 
+            action="https://formspree.io/f/xeqnrenb"
+            method="POST" class="form">
+
+              
+                <div class="row">
+
+                  
+                  
+                    <div class="col-md-6">
+                        <div class="md-form p-2">
+                            <input type="name" id="name" name="name" class="form-control" placeholder="Name*">
+                            <label for="name" class=""></label>
+                        </div>
+                    </div>
+                 
+
+                 
+                    <div class="col-md-6">
+                        <div class="md-form p-2">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email*">
+                            <label for="email" class=""></label>
+                        </div>
+                    </div>
+              
+
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form p-2">
+                            <input type="subject" id="subject" name="subject" class="form-control" placeholder="Subject*" >
+                            <label for="subject" class=""></label>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="md-form p-2">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message*"></textarea>
+                            <label for="message"></label>
+                        </div>
+
+                    </div>
+                </div>
+       
+
+
+            <div class="text-center text-md-left p-4">
+                <button type="submit" class="btn btn-outline-danger" target="_blank">Send</button>
+            </div>
+          
+
+            <div class="status"></div>
+        </form>
+        </div>
+      
+
       </div>
+	  </section>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
+	</section>
   </div>
 </div>
-
+</div>
+</div>
 </div>
 </template>
 <script>
