@@ -12,6 +12,11 @@
     
 </template>
 <script>
+//  methods:{
+//    goToAbout(){
+//    this.$router.push('/about'); 
+//       }
+//   }
 </script>
 <style>
 

@@ -17,14 +17,10 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
       <div class="modal-body">
     <!--CONTACT-->
 <section id="contact" class="contact">
-  <div class="container p-5">
+  <div class="container p-2">
     <div>
       <h2 class="text-center text-danger">Questions?</h2>
       <p class="text-center">Lets get in touch</p>
@@ -32,7 +28,7 @@
 
 
     
-    <section id="booking" class="p-3">
+    <section id="booking" class="p-1">
       <div class="row">
 
      
@@ -45,8 +41,6 @@
               
                 <div class="row">
 
-                  
-                  
                     <div class="col-md-6">
                         <div class="md-form p-2">
                             <input type="name" id="name" name="name" class="form-control" placeholder="Name*">
@@ -88,8 +82,9 @@
        
 
 
-            <div class="text-center text-md-left p-4">
-                <button type="submit" class="btn btn-outline-danger" target="_blank">Send</button>
+            <div class="row text-center text-md-left p-4">
+                <button type="submit" class="btn btn-outline-success col-lg-6 col-md-6" target="_blank">Send</button>
+             <button type="button" class="btn btn-outline-danger col-lg-6 col-md-6" data-bs-dismiss="modal">Close</button>
             </div>
           
 
@@ -100,10 +95,7 @@
 
       </div>
 	  </section>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      
     </div>
 	</section>
   </div>
