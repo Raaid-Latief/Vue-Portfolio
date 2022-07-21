@@ -16,12 +16,13 @@ const routes = [
     name: "home",
     component: () => import("../views/Home.vue"),
   },
-  {
-    path: "/contact",
-    name: "contact",
-    component: () => import("../views/About.vue"),
-    component: () => import("../views/Projects.vue"),
-  },
+
+  // {
+  //   path: "/footer",
+  //   name: "footer",
+  //   component: () => import("../views/About.vue"),
+  //   component: () => import("../views/Projects.vue"),
+  // },
 ];
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

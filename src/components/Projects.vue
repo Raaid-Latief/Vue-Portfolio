@@ -1,26 +1,17 @@
 <template>
+<br>
+<br>
+<br>
+<br>
+<br>
     <div>
-        <h1 class="p-2">Welcome to my Project Gallery</h1>
+        <h1 class="projheading p-2 text-center">Welcome to my Project Gallery</h1>
 
 
-         <h2 id="demo07">Gray Scale</h2>
-<div class="hover07 row">
-  <div class="col-lg-4">
-    <figure><img src="https://picsum.photos/300/200?image=244" /></figure>
-    <span>Project1</span>
-  </div>
-  <div class="col-lg-4">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    <span>Project2</span>
-  </div>
-  <div class="col-lg-4">
-    <figure><img src="https://picsum.photos/300/200?image=611" /></figure>
-    <span>Project3</span>
-  </div>
-</div> 
-
+       
+<div class="row">
 <!-- Button trigger modal -->
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn col-lg-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <div class="hover07">
     <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
     </div>
@@ -32,53 +23,17 @@
     <div class="modal-content">
       <div class="modal-header">
       
-     <h3>BMI</h3>
-      
-      </div>
-      <div class="modal-body">
-       <img class="img1" src="https://picsum.photos/300/200?image=1024" />
-        <div class="row">
-            <h3 class="col-lg-6 col-md-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a></h3>
-               <h3 class="col-lg-6 col-md-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-solid fa-earth-africa"></i>
-        </a></h3>
-               <!-- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-brands fa-linkedin-in fa-2x "></i>
-        </a> -->
-                  
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <div class="hover07">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    </div>
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Eagle</h5>
-        <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
       
       </div>
       <div class="modal-body">
-        <h4>Random text</h4>
+             <h3 class="modal-head text-center">BMI</h3>
+       <img class="img1 text-center" src="https://picsum.photos/300/200?image=1024" />
         <div class="row">
-            <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
+            <h3 class="col-lg-6 col-md-6 col-sml-6 text-center"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
         <i class="fa-brands fa-github"></i>
         </a></h3>
-               <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
+               <h3 class="col-lg-6 col-md-6 col-sml-6 text-center"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
           <i class="fa-solid fa-earth-africa"></i>
         </a></h3>
                <!-- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
@@ -88,50 +43,15 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">x</button>
+       
       </div>
     </div>
   </div>
 </div>
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <div class="hover08">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    </div>
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Eagle</h5>
-        <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-      
-      </div>
-      <div class="modal-body">
-        <h4>Random text</h4>
-        <div class="row">
-            <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a></h3>
-               <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-solid fa-earth-africa"></i>
-        </a></h3>
-               <!-- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-brands fa-linkedin-in fa-2x "></i>
-        </a> -->
-                  
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+<button type="button" class="btn col-lg-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <div class="hover07">
     <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
     </div>
@@ -168,79 +88,15 @@
     </div>
   </div>
 </div>
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+<button type="button" class="btn  col-lg-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <div class="hover08">
     <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
     </div>
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Eagle</h5>
-        <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-      
-      </div>
-      <div class="modal-body">
-        <h4>Random text</h4>
-        <div class="row">
-            <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a></h3>
-               <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-solid fa-earth-africa"></i>
-        </a></h3>
-               <!-- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-brands fa-linkedin-in fa-2x "></i>
-        </a> -->
-                  
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <div class="hover08">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    </div>
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Eagle</h5>
-        <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-      
-      </div>
-      <div class="modal-body">
-        <h4>Random text</h4>
-        <div class="row">
-            <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a></h3>
-               <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-solid fa-earth-africa"></i>
-        </a></h3>
-               <!-- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-brands fa-linkedin-in fa-2x "></i>
-        </a> -->
-                  
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+
 </div>
     </div>
 </template>
@@ -249,7 +105,7 @@ export default {
     name: "Projects",
 };
 </script>
-<style>
+<style scoped>
     body, html {
   padding: 0;
   margin: 0;
@@ -268,30 +124,30 @@ img{
     padding-right: 20px;
 }
 
+.modal-head{
+    font-family: 'Playfair Display', serif;
+}
+
 .modal-header{
     border: 5px;
 }
 .modal-content{
- background-color: aqua;
+ background-color: rgb(0, 0, 0);
  border: 4px;
 }
 .modal-footer{
     border: 5px;
 }
 
-/* STICKY BUTTON */
+/* Headings */
 
-/* Gray Scale */
-/* .hover08 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .6s ease-in-out;
-	transition: .6s ease-in-out;
+.projheading{
+  font-family: 'Playfair Display', serif;
+    color: #000; /* Fallback for older browsers */
+    color: rgba(112, 0, 0, 0.5);
+
+    font-size: 90pt;
 }
-.hover08 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-} */
 
 .hover07 figure img {
 	-webkit-filter: blur(3px);
@@ -312,4 +168,8 @@ img{
     color:rgb(66, 13, 13) !important;
     opacity: unset;
  }
+
+.fa-github{
+size: 150px;
+}
 </style>

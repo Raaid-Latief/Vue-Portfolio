@@ -5,21 +5,9 @@
 <br>
 <br>
 <div>
-  <h1>About myself hello</h1>
+  <h1>This is me</h1>
 
- <div>
-      <div class="row">
-<div class="col">
-  <h2 class=" text-center p-5">About Me</h2>
-  <P class="p-2">I'm a hard-working and passionate person. I love seeing progress, and if I am committed to something, I make sure to go all out. I'm not afraid of failure because there's always room to improve. I am gentle and always willing to advise as I love seeing people succeed. 
-    Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. I did an IT learnership last year and had to drop out as I preferred to be the one developing the websites. This motivated me to pursue this field of work.
-    </P>
-</div>
-<div class=" pfp col"><img src="https://i.postimg.cc/vTsKz7T5/avatar.jpg" alt=""></div>
-  </div>
-</div>
-<div>
-<h1>Pure Css responsive <span>timeline</span></h1>
+<h1>My <span>Resume</span></h1>
 
 
 <div class="container">
@@ -77,7 +65,7 @@
         <div class="container1">
 
             <div class="heading white-heading">
-                Testimonial
+                Testimonials
             </div>
             <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="5000" data-bs-duration="2000">
              
@@ -85,7 +73,7 @@
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 1</h4>
                         </div>
                     </div>
@@ -98,8 +86,29 @@
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 3</h4>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h4>Client 4</h4>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h4>Client 5</h4>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <h4>Client six </h4>
                         </div>
                     </div>
                 </div>
@@ -116,7 +125,7 @@
     
 
 </div>
-    </div>
+    
 </template>
 
 <script>
@@ -144,6 +153,29 @@ a {
   color: #42b983;
 }
 
+
+/* ID Selector */
+.MeHead{
+    font-size: 30px;
+    color: rgba(112, 0, 0, 0.5);
+}
+#title {
+	font-size: 50px;
+	font-family: 'Euphoria Script';
+}
+#about-me-box {
+	margin: 50px 0;
+	background-color: #fff; 
+	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	display: block;
+	padding: 0 10px 0 0;
+}
+#check-this-out-box {
+	padding: 10px; 
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+}
 /* Resume Timeline */
 * {
    -webkit-box-sizing: border-box;
@@ -162,7 +194,7 @@ body {
 h1 {
    text-align: center;
    font-weight: 300;
-   color: #777
+   color: rgba(112, 0, 0, 0.5)
 }
 
 h1 span {
@@ -273,16 +305,18 @@ h1 span {
 /* Testimonial */
 .heading {
     text-align: center;
-    color: #454343;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 30px;
     font-weight: 700;
     position: relative;
     margin-bottom: 70px;
     text-transform: uppercase;
     z-index: 999;
+    font-family: 'Playfair Display', serif;
+    font-size: 58px;
 }
 .white-heading{
-    color: #ffffff;
+    color:rgba(112, 0, 0, 0.5);
 }
 .heading:after {
     content: ' ';
@@ -297,6 +331,10 @@ h1 span {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.testfont{
+    color: rgb(180, 5, 5);
+}
 .white-heading:after {
 
     background-repeat: no-repeat;
@@ -309,8 +347,9 @@ h1 span {
     font-weight: 500;
 }
 .white-heading span {
-    color: #ffffff;
+    color: #610000;
 }
+
 /*-----Testimonial-------*/
 
 .testimonial:after {
@@ -334,6 +373,7 @@ h1 span {
     padding-bottom: 50px;
     background-position: center;
         background-size: cover;
+        background-image: url(https://i.postimg.cc/Bb9VwHjF/greek-landing.jpg);
 }
 #testimonial4 .carousel-inner:hover{
   cursor: -moz-grab;
@@ -430,9 +470,9 @@ h1 span {
 }
 .testimonial4_control_button .carousel-control.left:hover,
 .testimonial4_control_button .carousel-control.right:hover{
-  color: #000;
-  background: #fff;
-  border: 2px solid #fff;
+  color: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
 }
 
 .testimonial4_header{

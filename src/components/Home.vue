@@ -4,11 +4,15 @@
 <br>
   
   <div>
-<h1>Im Raaid, Aspiring Web Developer</h1>
+<h1 class="text-center mt-5">Im Raaid, Aspiring Web Developer</h1>
 </div>
-<div>
- <button class="custom-btn btn-2">Take a tour!</button>
+ <div class="text-center display-4 text-danger mt-5">
+            <i class="fa-solid fa-code fa-beat" ></i>
+            </div>
+<div class="HomeBtn">
+ <button class="custom-btn btn-2 text-center mb-1">Take a tour!</button>
 </div>
+
     
 </template>
 <script>
@@ -18,7 +22,7 @@
 //       }
 //   }
 </script>
-<style>
+<style scoped>
 
 
 
@@ -39,16 +43,22 @@ body {
     display: flex;
     flex: wrap;
    /* remove no-repeat to show bg */
-    background: no-repeat;
+   
     }
 
 h1{
     font-family: 'Playfair Display', serif;
     color: #000; /* Fallback for older browsers */
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(112, 0, 0, 0.5);
 
-    font-size: 100pt;
+    font-size: 98pt;
 
+}
+.HomeBtn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
 }
 
 .buttons-coll {
@@ -57,7 +67,7 @@ h1{
   text-align: center;
 }
 button {
-  margin: 50px;
+margin: 0px;
 }
 .custom-btn {
   padding: 10px 25px;
@@ -69,12 +79,12 @@ button {
   transition: all 1.1s ease;
   position: relative;
   display: inline-block;
-  color: white;
+  color: rgb(172, 126, 126);
 }
 .btn-2 {
   border: none;
-  border-bottom: 2px solid rgb(255, 255, 255);
-  border-left: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(122, 0, 0);
+  border-left: 2px solid rgb(211, 0, 0);
 }
 .btn-2:before,
 .btn-2:after {
@@ -82,7 +92,7 @@ button {
   content: "";
   right: 0;
   top: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(212, 17, 17);
   transition: all 0.3s ease;
 }
 .btn-2:before {
@@ -101,8 +111,6 @@ button {
 }
 
 </style>
-
-
 
 
 
