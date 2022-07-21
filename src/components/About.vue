@@ -7,6 +7,28 @@
 <div>
   <h1>This is me</h1>
 
+  <div>		
+		<section id="about-me">
+			<div class="container1">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="about-me-box">
+							<div class="row">
+								<div class="col-md-6 col-xs-12">
+									<img class="max-width-xs" src="https://i.postimg.cc/2SRFKFLd/Raaid-4-removebg-preview.png" />
+								</div><!-- end col-md-7 -->
+								<div class="col-md-6 col-xs-12">
+									<div class="text-center"><h1>About Me</h1></div>
+									<p>Hi! My name is Karina and this is Check This Out.This personal review blog is filled with all my favoites. From movies to bucket list ideas to random suggestions for you. This is my personal taste so I can confirm that all the suggestions made are the best suggestions in the entire universe! Well... at least to me they are. Have fun looking around. I hope you find something worth enjoying. </p>
+								</div><!-- end col-md-5-->
+							</div><!--end row -->
+						</div><!-- end about-me-box -->
+					</div><!-- end col-md-12-->
+				</div><!-- end row-->
+			</div><!-- end container -->
+		</section>
+		</div>
+
 <h1>My <span>Resume</span></h1>
 
 
@@ -73,28 +95,28 @@
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 1</h4>
+                            <p class="testfont">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills.</p>
+                            <h4>- Jason Wandrag, Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 2</h4>
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work"</p>
+                            <h4>- Yaseen Davids, Student Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 3</h4>
+                            <img src="https://i.postimg.cc/prf16zFG/Live-1-1-removebg-preview-min.png" class="img-circle img-responsive" />
+                            <p class="testfont">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone"</p>
+                            <h4>- Live Maweni, Colleague</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 4</h4>
+                            <p class="testfont">"Raaid Abdullatief stay's consistent with working hard under pressure and he manages his time sufficiently. He is very determined and puts twice as much effort into his work to achieve his goals."</p>
+                            <h4>- Zoe Van Der Schyff</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
@@ -137,6 +159,32 @@ name: "About",
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+/* About me box */
+#title {
+	font-size: 50px;
+	font-family: 'Euphoria Script';
+}
+#about-me-box {
+	margin: 50px 0;
+	background-color: #fff; 
+	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	display: block;
+	padding: 0 10px 0 0;
+   background-image: url(https://i.postimg.cc/qRH7fwdr/pngtree-greece-key-border-vector-image-340799.jpg);
+   background-image: fixed;
+}
+#check-this-out-box {
+	padding: 10px; 
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+img {
+	width: 50%;	
+   padding-left: 100px;
+   }
 
 h3 {
   margin: 40px 0 0;
@@ -252,7 +300,7 @@ h1 span {
    border: 2px solid #F5F7FA;
    background: #4FC1E9;
    margin-top: 10px;
-   z-index: 9999
+   z-index: 1
 }
 
 .timeline-content {

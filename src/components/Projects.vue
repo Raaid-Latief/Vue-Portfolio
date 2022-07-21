@@ -6,12 +6,13 @@
 <br>
     <div>
         <h1 class="projheading p-2 text-center">Welcome to my Project Gallery</h1>
+        </div>
 
 
        
-<div class="row">
+<div class="row" v-for="project in projects" :key="project.id">
 <!-- Button trigger modal -->
-<button type="button" class="btn col-lg-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn col-lg-4 " data-bs-toggle="modal" data-bs-target="#exampleModal" >
     <div class="hover07">
     <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
     </div>
@@ -26,8 +27,8 @@
 
       
       </div>
-      <div class="modal-body">
-             <h3 class="modal-head text-center">BMI</h3>
+      <div class="modal-body" v-for="project in projects" :key="project.id">
+             <h3 class="modal-head text-center">{{project.title}}</h3>
        <img class="img1 text-center" src="https://picsum.photos/300/200?image=1024" />
         <div class="row">
             <h3 class="col-lg-6 col-md-6 col-sml-6 text-center"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
@@ -49,60 +50,37 @@
     </div>
   </div>
 </div>
-
-
-<button type="button" class="btn col-lg-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <div class="hover07">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    </div>
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Eagle</h5>
-        <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-      
-      </div>
-      <div class="modal-body">
-        <h4>Random text</h4>
-        <div class="row">
-            <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a></h3>
-               <h3 class="col-lg-6"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-solid fa-earth-africa"></i>
-        </a></h3>
-               <!-- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-brands fa-linkedin-in fa-2x "></i>
-        </a> -->
-                  
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<button type="button" class="btn  col-lg-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <div class="hover08">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    </div>
-</button>
-
-
-
-</div>
     </div>
 </template>
 <script>
 export default {
     name: "Projects",
+    data() {
+      return {
+        projects: [
+          {
+            id: 1,
+            title: "BMI",
+            img: "",
+            info: "fhfhie",
+            Linkedin: "dded",
+            Github: "dsdsds",
+          },
+          {
+id: 2,
+            title: "Hello",
+            img: "",
+            info: "fhfhie",
+            Linkedin: "dded",
+            Github: "dsdsds",
+          }
+          
+            
+
+          
+      ]
+      }
+    },
 };
 </script>
 <style scoped>
