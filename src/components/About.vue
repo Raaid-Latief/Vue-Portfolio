@@ -15,7 +15,7 @@
 						<div id="about-me-box">
 							<div class="row">
 								<div class="col-md-6 col-xs-12">
-									<img class="max-width-xs" src="https://i.postimg.cc/2SRFKFLd/Raaid-4-removebg-preview.png" />
+									<img class="raaid max-width-xs" src="https://i.postimg.cc/2SRFKFLd/Raaid-4-removebg-preview.png" />
 								</div><!-- end col-md-7 -->
 								<div class="col-md-6 col-xs-12">
 									<div class="text-center"><h1>About Me</h1></div>
@@ -95,13 +95,13 @@
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills.</p>
+                            <p class="testfont">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
                             <h4>- Jason Wandrag, Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work"</p>
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
                             <h4>- Yaseen Davids, Student Lecturer</h4>
                         </div>
                     </div>
@@ -122,8 +122,8 @@
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 5</h4>
+                            <p class="testfont">Raaid is wise and honest person. He loves his work.  He put more effort to his work.  He doesn't hesitate to assist you."</p>
+                            <h4>Lunga Booi</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
@@ -181,7 +181,7 @@ name: "About",
 	font-size: 14px;
 }
 
-img {
+.raaid {
 	width: 50%;	
    padding-left: 100px;
    }

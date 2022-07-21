@@ -7,6 +7,7 @@
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
                             <i class="fas fa-map-marker-alt"></i>
+                            
                             <div class="cta-text">
                                 <h4>Find me</h4>
                                 <span>314 Imam Haron Rd, Lansdowne, Cape Town, 7780</span>
@@ -15,7 +16,10 @@
                     </div>
                     <div class="col-xl-4 col-md-4 mb-30">
                         <div class="single-cta">
-                            <i class="fas fa-phone"></i>
+                           <a href="https://www.facebook.com/profile.php?id=100008176399053" target="_blank">
+      <i class="fas fa-phone"></i>
+        </a>
+                         
                             <div class="cta-text">
                                 <h4>Call me</h4>
                                 <span>076 199 3236</span>
