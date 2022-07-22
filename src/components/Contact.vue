@@ -133,10 +133,10 @@ body{
 
 .modal-title{
       font-family: 'Playfair Display', serif;
-    color: #000; 
-    color: rgba(112, 0, 0, 0.5);
+  color:  #CC9D18;
+  text-shadow: 1px 1px 0px #ff0000;
 
-    font-size: 20pt;
+    font-size: 30pt;
 }
 
 img{

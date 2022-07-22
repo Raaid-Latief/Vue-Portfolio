@@ -4,7 +4,7 @@
 <br>
 <br>
 <br>
-<div>
+<div class="about">
   <h1 class="aboutHead">This is me</h1>
 
   <div>		
@@ -18,7 +18,7 @@
 									<img class="raaid max-width-xs" src="https://i.postimg.cc/2SRFKFLd/Raaid-4-removebg-preview.png" />
 								</div><!-- end col-md-7 -->
 								<div class="col-md-6 col-xs-12">
-									<div class="text-center"><h1 class="aboutMeHead">About Me</h1></div>
+									
 									<p class="aboutMe">I'm a hard-working and passionate person. I love seeing progress, and if I am committed to something, I make sure to go all out. I'm not afraid of failure because there's always room to improve. I am gentle and always willing to advise as I love seeing people succeed. 
     Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. I did an IT learnership last year and had to drop out as I preferred to be the one developing the websites. This motivated me to pursue this field of work.</p>
 								
@@ -70,7 +70,7 @@
 
 
 <!-- Start of resume -->
-<h1>My <span>Resume</span></h1>
+<h1 class="resumetitle">My <span>Resume</span></h1>
 
 
 <div class="container">
@@ -129,7 +129,7 @@
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
                             <img src="https://i.postimg.cc/02BczXHD/IMG-20220511-WA0005-adobe-express.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
+                            <p class="fonts">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
                             <h4>- Jason Wandrag, Lecturer</h4>
                         </div>
                     </div>
@@ -142,28 +142,28 @@
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.postimg.cc/HxkjsWGd/My-project-1-1.png" class="img-circle img-responsive" />
-                            <p class="testfont">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone"</p>
+                            <p class="fonts">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone"</p>
                             <h4>- Live Maweni, Colleague</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.postimg.cc/6qcwYDTp/Zoe-3-removebg-preview-1-adobe-express.png" class="img-circle img-responsive" />
-                            <p class="testfont">"Raaid Abdullatief stay's consistent with working hard under pressure and he manages his time sufficiently. He is very determined and puts twice as much effort into his work to achieve his goals."</p>
+                            <p class="fonts">"Raaid Abdullatief stay's consistent with working hard under pressure and he manages his time sufficiently. He is very determined and puts twice as much effort into his work to achieve his goals."</p>
                             <h4>- Zoe Van Der Schyff</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.postimg.cc/5N5Jx1R6/My-project-1-2.png" class="img-circle img-responsive" />
-                            <p class="testfont">Raaid is wise and honest person. He loves his work.  He put more effort to his work.  He doesn't hesitate to assist you."</p>
+                            <p class="fonts">Raaid is wise and honest person. He loves his work.  He put more effort to his work.  He doesn't hesitate to assist you."</p>
                             <h4>Lunga Booi</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.postimg.cc/RFQ1SXjr/Sindile-1-removebg-preview-adobe-express.png" class="img-circle img-responsive" />
-                            <p class="testfont">"Raaid is a hardworking and passionate person. It shows through his work. But most importantly he is always willing to lend a hand."</p>
+                            <p class="fonts">"Raaid is a hardworking and passionate person. It shows through his work. But most importantly he is always willing to lend a hand."</p>
                             <h4>Sindile Kula </h4>
                         </div>
                     </div>
@@ -197,9 +197,9 @@ name: "About",
 /* About me box */
 .aboutHead{
   font-family: 'Playfair Display', serif;
-    color: #000; 
-    color: rgba(112, 0, 0, 0.5);
-
+   color:  #cc9d18;
+     text-shadow: 1px 1px 0px #ff0000;
+     
     font-size: 80pt;
 }
 #about-me-box {
@@ -208,7 +208,7 @@ name: "About",
 	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
 	display: block;
 	padding: 0 10px 0 0;
-   /* background-image: url(https://i.postimg.cc/qRH7fwdr/pngtree-greece-key-border-vector-image-340799.jpg); */
+ background-color: black;
    background-image: fixed;
 }
 #check-this-out-box {
@@ -255,6 +255,7 @@ a {
 
 
 /* ID Selector */
+
 .MeHead{
     font-size: 30px;
     color: rgba(112, 0, 0, 0.5);
@@ -269,6 +270,11 @@ a {
 	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
 	display: block;
 	padding: 0 10px 0 0;
+}
+.aboutMe{
+padding-top: 15px;
+ font-size: 18px;
+ padding-left: 20px;
 }
 #check-this-out-box {
 	padding: 10px; 
@@ -294,11 +300,16 @@ body {
 h1 {
    text-align: center;
    font-weight: 300;
-   color: rgba(112, 0, 0, 0.5)
+  color:  #cc9d18;
+     text-shadow: 1px 1px 0px #ff0000;
+     
 }
 
 h1 span {
    font-weight: 600;
+  color:  #cc9d18;
+     text-shadow: 1px 1px 0px #ff0000;
+     
 }
 
 .container {
@@ -307,6 +318,7 @@ h1 span {
    margin: 50px auto;
    position: relative;
    overflow: hidden;
+   background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
 }
 
 .container:before {
@@ -404,19 +416,14 @@ h1 span {
 
 /* Testimonial */
 .heading {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 30px;
-    font-weight: 700;
-    position: relative;
-    margin-bottom: 70px;
-    text-transform: uppercase;
-    z-index: 999;
-    font-family: 'Playfair Display', serif;
-    font-size: 58px;
+ font-family: 'Playfair Display', serif;
+   color:  #cc9d18;
+     text-shadow: 1px 1px 0px #ff0000;
+     
+    font-size: 40pt;
 }
 .white-heading{
-    color: rgba(112, 0, 0, 0.5);
+    color:  #cc9d18;
 }
 .heading:after {
     content: ' ';
@@ -432,8 +439,9 @@ h1 span {
     background-position: center;
 }
 
-.testfont{
-    color: rgb(180, 5, 5);
+.fonts{
+   color: #4FC1E9;
+   text-shadow: black;
 }
 .white-heading:after {
 
@@ -473,7 +481,7 @@ h1 span {
     padding-bottom: 50px;
     background-position: center;
         background-size: cover;
-        background-image: url(https://i.postimg.cc/Bb9VwHjF/greek-landing.jpg);
+       background-color: black;
 }
 #testimonial4 .carousel-inner:hover{
   cursor: -moz-grab;
@@ -511,7 +519,7 @@ h1 span {
   margin: 2px 3px;
   cursor: pointer;
   display: inline-block;
-  background: #ffffff;
+  background: #571212;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
@@ -609,8 +617,8 @@ h1 span {
     top: 0;
     left: 0;
     right: 0;
-    width: 136px;
-    height: 136px;
+    width: 140px;
+    height: 110px;
     margin: auto;
     display: block;
     color: #f2f2f2;
@@ -626,9 +634,10 @@ h1 span {
 }
 .testimonial4_slide p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.4;
     margin: 40px 0 20px 0;
+    text-shadow: rgb(134, 15, 15);
 }
 .testimonial4_slide h4 {
   color: #ffffff;

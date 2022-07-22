@@ -37,15 +37,16 @@ background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
 h1{
     font-family: 'Playfair Display', serif;
 
-    color: rgba(112, 0, 0, 0.5);
-
+    color: #cc9d18;
+  text-shadow: 1px 1px 0px #ff0000;
     font-size: 100px;
 
 }
 h2{
       font-family: 'Playfair Display', serif;
 
-    color: rgba(112, 0, 0, 0.5);
+    color: #cc9d18;
+      text-shadow: 1px 1px 0px #ff0000;
 
     font-size: 60px;
 }
@@ -75,12 +76,12 @@ margin: 0px;
   transition: all 1.1s ease;
   position: relative;
   display: inline-block;
-  color: rgb(172, 126, 126);
+  color: #18cc9d;
 }
 .btn-2 {
   border: none;
-  border-bottom: 2px solid rgb(122, 0, 0);
-  border-left: 2px solid rgb(211, 0, 0);
+  border-bottom: 2px solid #18cc9d;
+  border-left: 2px solid #18cc9d;
 }
 .btn-2:before,
 .btn-2:after {
@@ -88,7 +89,7 @@ margin: 0px;
   content: "";
   right: 0;
   top: 0;
-  background: rgb(212, 17, 17);
+  background: #18cc9d;
   transition: all 0.3s ease;
 }
 .btn-2:before {

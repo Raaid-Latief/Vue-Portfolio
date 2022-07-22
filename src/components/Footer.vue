@@ -78,6 +78,8 @@ export default {
 }
 
 
+
+
 .footer .content {
   display: flex;
   justify-content: space-evenly;
@@ -95,10 +97,10 @@ export default {
 }
 
 .footer .content a:hover {
-  border-bottom: 1px solid #88bcf5;
+  border-bottom: 1px solid #9d18cc;
 }
 .footer .content router-link:hover {
-    border-bottom: 1px solid #88bcf5;
+    border-bottom: 1px solid#9d18cc;
   
 }
 .footer .content h4 {
@@ -109,10 +111,12 @@ export default {
 footer {
   text-align: center;
   margin-bottom: 2rem;
+  color: #9d18cc;
 }
 
 footer hr {
   margin: 2rem 0;
+  color: #9d18cc;
 }
 
 @media (max-width: 767px) {

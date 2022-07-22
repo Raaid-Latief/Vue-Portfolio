@@ -251,6 +251,8 @@ html,body {
 	 text-align: center;
 }
 
+
+
 /* Project Buttons */
 ul{
   list-style-type: none;
@@ -258,9 +260,8 @@ ul{
 
 .projheading{
   font-family: 'Playfair Display', serif;
-    color: #000; 
-    color: rgba(112, 0, 0, 0.5);
-
+   color: #CC9D18;
+  text-shadow: 1px 1px 0px #ff0000;
     font-size: 45pt;
 }
 
@@ -317,14 +318,15 @@ ul{
 	 border: 2px solid rgba(255, 255, 255, 0.8);
 }
  h2 {
-	 color: #fff;
+  color: #CC9D18;
+  text-shadow: 1px 1px 0px #ff0000;
 	 position: absolute;
 	 bottom: 10%;
 	 left: 10%;
 	 transform: translateZ(50px);
 	 text-align: center;
-	 font-size: 24px;
-	 text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+	 font-size: 30px;
+	
 }
  .trigger {
 	 position: absolute;
@@ -419,19 +421,18 @@ ul{
 }
 
 .fa-brands{
-    color:#11BAAB;
-    size: 1rem;
+    color:#18cc9d;
 }
 
 .fa-solid{
-     color:#11BAAB;
+     color:#18cc9d;
 }
 
 .fa-brands:hover{
-  color: #000;
+  color: #9d18cc;
 }
 .fa-solid:hover{
-  color: #000;
+  color: #9d18cc;
 }
 
 </style>

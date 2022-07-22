@@ -75,7 +75,8 @@ export default {
     order: 1;
     font-size: 2.1rem;
      font-family: 'Great Vibes', cursive;
-  
+  color: #cc9d18;
+    text-shadow: 1px 1px 0px #ff0000;
     transform: rotate(354deg)
 }
 
@@ -86,14 +87,14 @@ export default {
 }
 
 .navbar a{
-    color: #444;
+    color:#18cc9d;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
-    color:#11BAAB;
+    color:#9d18cc;
 }
 
 @media (max-width: 768px){
@@ -142,7 +143,7 @@ export default {
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: #18cc9d;
     }
     
     .navbar-container .hamburger-lines .line1{
@@ -205,7 +206,7 @@ export default {
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
