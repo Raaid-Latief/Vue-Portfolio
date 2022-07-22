@@ -418,70 +418,20 @@ ul{
 	 border-bottom: 2px solid #88bcf5;
 }
 
-    /* body, html {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  min-height: 100vh;
-}
-img{
-    border: 5px solid #555;
-    height: 210px;
-    width: 350px;
+.fa-brands{
+    color:#11BAAB;
+    size: 1rem;
 }
 
-.img1{
-    border: 50pt;
-    padding: 20px;
-    padding-right: 20px;
+.fa-solid{
+     color:#11BAAB;
 }
 
-.modal-head{
-    font-family: 'Playfair Display', serif;
+.fa-brands:hover{
+  color: #000;
+}
+.fa-solid:hover{
+  color: #000;
 }
 
-.modal-header{
-    border: 5px;
-}
-.modal-content{
- background-color: rgb(0, 0, 0);
- border: 4px;
-}
-.modal-footer{
-    border: 5px;
-}
-
-/* Headings *
-
-.projheading{
-  font-family: 'Playfair Display', serif;
-    color: #000; /* Fallback for older browsers *
-    color: rgba(112, 0, 0, 0.5);
-
-    font-size: 90pt;
-}
-
-.hover07 figure img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover07 figure:hover img {
-	-webkit-filter: blur(0);
-	filter: blur(0);
-}
-.fa-linkedin-in:hover{
-    color:rgb(66, 13, 13)  !important;
-    opacity: unset;
- }
-
- .fa-github:hover{
-    color:rgb(66, 13, 13) !important;
-    opacity: unset;
- }
-
-.fa-github{
-size: 150px;
-} */
 </style>

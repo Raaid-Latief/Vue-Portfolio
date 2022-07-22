@@ -4,7 +4,8 @@
 <br>
 
   <div>
-<h1 class="text-center mt-5">Im Raaid, Aspiring Web Developer</h1>
+<h1 class="text-center mt-5">Im Raaid</h1>
+<h2 class="text-center mt-5"> Aspiring Web Developer</h2>
 </div>
  <div class="text-center display-4 text-danger mt-5">
             <i class="fa-solid fa-code fa-beat" ></i>
@@ -16,11 +17,7 @@
 
 </template>
 <script>
-//  methods:{
-//    goToAbout(){
-//    this.$router.push('/about'); 
-//       }
-//   }
+
 </script>
 <style scoped>
 
@@ -28,32 +25,29 @@
 
 
 
+body{
 
+background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
 
-body, html {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-  background-image: url(https://i.postimg.cc/D0CjkWsQ/62d943579008e.jpg);
-}
-body {
- background-image: url(https://i.postimg.cc/D0CjkWsQ/62d943579008e.jpg);
- background-attachment: fixed;
-    display: flex;
-    flex: wrap;
-   /* remove no-repeat to show bg */
-   
-    }
-
+    
 h1{
     font-family: 'Playfair Display', serif;
 
     color: rgba(112, 0, 0, 0.5);
 
-    font-size: 80pt;
+    font-size: 100px;
 
+}
+h2{
+      font-family: 'Playfair Display', serif;
+
+    color: rgba(112, 0, 0, 0.5);
+
+    font-size: 60px;
 }
 .HomeBtn{
   display: flex;

@@ -18,7 +18,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+        <h5 class="modal-title text-center" id="exampleModalLabel">Contact Me</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -124,33 +124,32 @@ body{
 .my-float{
 	margin-top:22px;
 }
-/* .modal{
-    left: 31%;
-}
-.modal-header1{
-    border: 5px;
-}
-.modal-content1{
- background-color: rgb(0, 0, 0);
- border: 4px;
- padding: 16px;
-}
-.modal-footer1{
-    border: 5px;
+
+
+.modal-content{
+    background-image: url(https://i.postimg.cc/G3X5xkjQ/gree-contact.jpg);
+
 }
 
-.modal-dialog{
-    display: flex;
-align-items: center;
-justify-content: center;
-padding-left: 70px;
-} */
+.modal-title{
+      font-family: 'Playfair Display', serif;
+    color: #000; 
+    color: rgba(112, 0, 0, 0.5);
+
+    font-size: 20pt;
+}
+
+img{
+    height: 492px;
+}
 #contact{
     background-color: black; 
     /* padding: 50px; */
 }
 
-
+.form-control{
+    background-color: #000;
+}
 
 .send-btn{
     background-color: black;

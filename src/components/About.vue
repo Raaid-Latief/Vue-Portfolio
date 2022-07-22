@@ -416,7 +416,7 @@ h1 span {
     font-size: 58px;
 }
 .white-heading{
-    color:rgba(112, 0, 0, 0.5);
+    color: rgba(112, 0, 0, 0.5);
 }
 .heading:after {
     content: ' ';

@@ -27,22 +27,22 @@
             >
           </p>
           <p>
-            <a href="https://www.instagram.com/imsanketbodke/?hl=en"
+            <a href="https://www.instagram.com/raaid.abdullatief/?hl=en"
               ><i class="fab fa-instagram"></i> Instagram</a
             >
           </p>
         </div>
         <div class="links">
           <h4>Quick links</h4>
-          <p><a href="#">Home</a></p>
-          <p><a href="#">About</a></p>
-          <p><a href="#">Gallery</a></p>
-          <p><a href="#">Contact</a></p>
+          <router-link to="/home"><p><a href="#">Home</a></p></router-link>
+     <router-link to="/about"><p><a href="#">About</a></p></router-link>
+          <router-link to="/projects"><p><a href="#">Gallery</a></p></router-link>
         </div>
         <div class="details">
           <h4 class="address">Address</h4>
-          <p>
+          <p><a href="https://www.google.com/maps/place/Life+Choices/@-33.9856643,18.4926986,15z/data=!4m5!3m4!1s0x0:0x9c746d268c8e0ad9!8m2!3d-33.9856643!4d18.4926986">
             314 Imam Haron Rd, Lansdowne, Cape Town, 7780
+            </a>
           </p>
           <h4 class="mobile">Mobile</h4>
           <p><a href="#">076 199 3236</a></p>
@@ -97,7 +97,10 @@ export default {
 .footer .content a:hover {
   border-bottom: 1px solid #88bcf5;
 }
-
+.footer .content router-link:hover {
+    border-bottom: 1px solid #88bcf5;
+  
+}
 .footer .content h4 {
   margin-bottom: 1.3rem;
   font-size: 19px;
