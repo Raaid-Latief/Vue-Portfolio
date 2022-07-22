@@ -409,7 +409,7 @@ ul{
 	 width: 100%;
 }
  .buttons a {
-	 color: #88bcf5;
+	 color:#88bcf5 ;
 	 border-bottom: 2px solid transparent;
 	 margin: 10px 20px;
 }

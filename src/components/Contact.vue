@@ -2,105 +2,27 @@
     <div>
         
 
-<!-- <a href="#" class="float">
-<i class="fa-solid fa-phone-flip my-float"></i>
-</a> -->
 
-<!-- Button trigger modal -->
-<button data-bs-toggle="modal" data-bs-target="#exampleModal" >
-<a href="#" class="float">
+
+<button data-bs-toggle="modal" class="" data-bs-target="#exampleModal">
+<div class="float">
 <i class="fa-solid fa-phone-flip my-float"></i>
-</a>
+</div>
 </button>
 
+
+
+
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade text-center" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content text-center">
-      <div class="modal-body">
-    <!--CONTACT-->
-<!-- <section id="contact" class="contact">
-  <div class="container p-2">
-    <div>
-      <h2 class="text-center text-danger">Questions?</h2>
-      <p class="text-center">Lets get in touch</p>
-    </div>
-
-
-    
-    <section id="booking" class="p-1">
-      <div class="row">
-
-     
-        <div class="col-md-9 mb-md-0 mb-5">
-          
-            <form 
-            action="https://formspree.io/f/xeqnrenb"
-            method="POST" class="form">
-
-              
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="md-form p-2">
-                            <input type="name" id="name" name="name" class="form-control" placeholder="Name*">
-                            <label for="name" class=""></label>
-                        </div>
-                    </div>
-                 
-
-                 
-                    <div class="col-md-6">
-                        <div class="md-form p-2">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email*">
-                            <label for="email" class=""></label>
-                        </div>
-                    </div>
-              
-
-                </div>
-            
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form p-2">
-                            <input type="subject" id="subject" name="subject" class="form-control" placeholder="Subject*" >
-                            <label for="subject" class=""></label>
-                        </div>
-                    </div>
-                </div>
-             
-                <div class="row">
-                    <div class="col-md-12">
-
-                        <div class="md-form p-2">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message*"></textarea>
-                            <label for="message"></label>
-                        </div>
-
-                    </div>
-                </div>
-       
-
-
-            <div class="row text-center text-md-left p-4">
-                <button type="submit" class="btn btn-outline-success col-lg-6 col-md-6" target="_blank">Send</button>
-             <button type="button" class="btn btn-outline-danger col-lg-6 col-md-6" data-bs-dismiss="modal">Close</button>
-            </div>
-          
-
-            <div class="status"></div>
-        </form>
-        </div>
-      
-
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-	  </section>
-      
-    </div>
-	</section> -->
-  <div class="text-center">
-    <h3 class="contact-head text-center p-2">Contact Me!</h3>
-    <div class="p-3">
+      <div class="modal-body">
+        <div class="p-3">
           <form 
             action="https://formspree.io/f/xeqnrenb"
             method="POST" class="form">
@@ -167,13 +89,18 @@
   </div>
 </div>
 </div>
-</div>
-</div>
+</div> 
+    
+      
+
+
+
+
 </template>
 <script>
 </script>
 <style scoped>
-    *{padding:0;margin:0;}
+  
 
 body{
 	font-family:Verdana, Geneva, sans-serif;
@@ -187,7 +114,7 @@ body{
 	height:60px;
 	bottom:35px;
 	right:14px;
-	background-color:#0C9;
+	background-color:#11BAAB;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -197,7 +124,7 @@ body{
 .my-float{
 	margin-top:22px;
 }
-.modal{
+/* .modal{
     left: 31%;
 }
 .modal-header1{
@@ -217,7 +144,7 @@ body{
 align-items: center;
 justify-content: center;
 padding-left: 70px;
-}
+} */
 #contact{
     background-color: black; 
     /* padding: 50px; */
@@ -229,5 +156,16 @@ padding-left: 70px;
     background-color: black;
 }
 
+.fa-phone-flip a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa-phone-flip a:hover{
+     color:#11BAAB;
+
+}
 
 </style>

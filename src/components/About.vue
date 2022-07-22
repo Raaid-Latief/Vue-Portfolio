@@ -128,43 +128,43 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <img src="https://i.postimg.cc/02BczXHD/IMG-20220511-WA0005-adobe-express.jpg" class="img-circle img-responsive" />
                             <p class="testfont">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
                             <h4>- Jason Wandrag, Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
+                            <img src="https://i.postimg.cc/pXSQkhvF/Untitled-design-1-adobe-express.png" class="img-circle img-responsive" /><p>"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
                             <h4>- Yaseen Davids, Student Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.postimg.cc/prf16zFG/Live-1-1-removebg-preview-min.png" class="img-circle img-responsive" />
+                            <img src="https://i.postimg.cc/HxkjsWGd/My-project-1-1.png" class="img-circle img-responsive" />
                             <p class="testfont">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone"</p>
                             <h4>- Live Maweni, Colleague</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <img src="https://i.postimg.cc/6qcwYDTp/Zoe-3-removebg-preview-1-adobe-express.png" class="img-circle img-responsive" />
                             <p class="testfont">"Raaid Abdullatief stay's consistent with working hard under pressure and he manages his time sufficiently. He is very determined and puts twice as much effort into his work to achieve his goals."</p>
                             <h4>- Zoe Van Der Schyff</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <img src="https://i.postimg.cc/5N5Jx1R6/My-project-1-2.png" class="img-circle img-responsive" />
                             <p class="testfont">Raaid is wise and honest person. He loves his work.  He put more effort to his work.  He doesn't hesitate to assist you."</p>
                             <h4>Lunga Booi</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client six </h4>
+                            <img src="https://i.postimg.cc/RFQ1SXjr/Sindile-1-removebg-preview-adobe-express.png" class="img-circle img-responsive" />
+                            <p class="testfont">"Raaid is a hardworking and passionate person. It shows through his work. But most importantly he is always willing to lend a hand."</p>
+                            <h4>Sindile Kula </h4>
                         </div>
                     </div>
                 </div>

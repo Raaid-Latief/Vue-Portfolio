@@ -49,7 +49,7 @@ body {
 
 h1{
     font-family: 'Playfair Display', serif;
-    color: #000; /* Fallback for older browsers */
+
     color: rgba(112, 0, 0, 0.5);
 
     font-size: 80pt;

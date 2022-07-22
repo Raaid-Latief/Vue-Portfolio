@@ -93,7 +93,7 @@ export default {
 }
 
 .navbar a:hover{
-    color: #117964;
+    color:#11BAAB;
 }
 
 @media (max-width: 768px){
