@@ -30,8 +30,8 @@
     </div>
     <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6"><a href="https://deluxe-meerkat-e28b3a.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
-       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/BMI-Calculator" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+       <li class="col-lg-6 col-md-6"><a href="https://deluxe-meerkat-e28b3a.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li  class="col-lg-6 col-md-6"><a href="https://github.com/Raaid-Latief/BMI-Calculator" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>
    </div>
@@ -57,8 +57,8 @@
     </div>
      <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6"><a href="https://melodious-basbousa-7123f3.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
-       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/ToDo" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+       <li class="col-lg-6 col-md-6"><a href="https://melodious-basbousa-7123f3.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li  class="col-lg-6 col-md-6"><a href="https://github.com/Raaid-Latief/ToDo" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>
    </div>
@@ -84,8 +84,8 @@
     </div>
      <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6"><a href="https://fastidious-alfajores-791abd.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
-       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/Temperature-Converter" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+       <li class="col-lg-6 col-md-6"><a href="https://fastidious-alfajores-791abd.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li  class="col-lg-6 col-md-6"><a href="https://github.com/Raaid-Latief/Temperature-Converter" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>
    </div>
@@ -115,8 +115,8 @@
     </div>
     <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6"><a href="https://genuine-salmiakki-e37077.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
-       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/Property-Listing" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+       <li class="col-lg-6 col-md-6"><a href="https://genuine-salmiakki-e37077.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li  class="col-lg-6 col-md-6"><a href="https://github.com/Raaid-Latief/Property-Listing" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>
    </div>
@@ -142,8 +142,8 @@
     </div>
      <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6"><a href="https://cheerful-taffy-28a46f.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
-       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/Javascript-Calculator" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+       <li class="col-lg-6 col-md-6"><a href="https://cheerful-taffy-28a46f.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li  class="col-lg-6 col-md-6"><a href="https://github.com/Raaid-Latief/Javascript-Calculator" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>
    </div>
@@ -169,72 +169,23 @@
     </div>
      <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6"><a href="https://transcendent-sprinkles-c04491.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
-       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/portfolio-project" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+       <li class="col-lg-6 col-md-6 col-sml-6"><a href="https://transcendent-sprinkles-c04491.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li  class="col-lg-6 col-md-6 col-sml-6"><a href="https://github.com/Raaid-Latief/portfolio-project" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>
    </div>
   
   
   </div>
-    <!-- <div>
-        <h1 class="projheading p-2 text-center">Welcome to my Project Gallery</h1>
-        </div>
-
-
-       
-<div class="row" v-for="project in projects" :key="project.id">
-<!- Button trigger modal --
-<button type="button" class="btn col-lg-4 " data-bs-toggle="modal" data-bs-target="#exampleModal" >
-    <div class="hover07">
-    <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
-    </div>
-</button>
-
-<!- Modal --
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-      
-
-      
-      </div>
-      <div class="modal-body" v-for="project in projects" :key="project.id">
-             <h3 class="modal-head text-center">{{project.title}}</h3>
-       <img class="img1 text-center" src="https://picsum.photos/300/200?image=1024" />
-        <div class="row">
-            <h3 class="col-lg-6 col-md-6 col-sml-6 text-center"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-        <i class="fa-brands fa-github"></i>
-        </a></h3>
-               <h3 class="col-lg-6 col-md-6 col-sml-6 text-center"><a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-solid fa-earth-africa"></i>
-        </a></h3>
-               <!- <a href="https://www.linkedin.com/in/raaid-abdullatief-35b3a3208/" target="_blank">
-          <i class="fa-brands fa-linkedin-in fa-2x "></i>
-        </a> --
-                  
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">x</button>
-       
-      </div>
-    </div>
-  </div>
-</div>
-    </div> -->
 </template>
 <script>
 
 </script>
 <style scoped>
-html,body {
+body {
 
 	 background-color: rgba(0, 0, 0, 0.7);
       overflow-x: hidden;
-}body {
-    overflow-x: hidden !important;
 }
 .container {
     max-width: 100% !important;

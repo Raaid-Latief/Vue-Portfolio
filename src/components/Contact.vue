@@ -4,7 +4,7 @@
 
 
 
-<button data-bs-toggle="modal" class="" data-bs-target="#exampleModal">
+<button data-bs-toggle="modal" class="btn" data-bs-target="#exampleModal">
 <div class="float">
 <i class="fa-solid fa-phone-flip my-float"></i>
 </div>
@@ -162,9 +162,11 @@ img{
     transition: color 0.3s ease-in-out;
 }
 
-.fa-phone-flip a:hover{
-     color:#11BAAB;
+.fa-phone-flip:hover{
+     color:#9d18cc;
 
 }
+
+
 
 </style>
