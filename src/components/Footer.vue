@@ -76,11 +76,11 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #a19696;
   position: relative;
 }
 .footer-cta {
-  border-bottom: 1px solid #373636;
+  border-bottom: 1px solid #ce1111;
 }
 .single-cta i {
   color:rgb(172, 126, 126);
@@ -209,7 +209,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
+  background: #a19696;
   padding: 25px 0;
 }
 .copyright-text p {

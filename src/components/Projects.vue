@@ -4,7 +4,9 @@
 <br>
 <br>
 <br>
-
+<div>
+ <h1 class="projheading p-2 text-center">Welcome to my Project Gallery</h1>
+ </div>
   
 <div class="row mt-5">
   
@@ -20,14 +22,21 @@
     <div class="trigger"></div>
     <div class="trigger"></div>
     
-<div class="paracard" style="background-image: url(https://images.unsplash.com/photo-1568283096533-078a24930eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+<div class="paracard" style="background-image: url(https://i.postimg.cc/wj4zpzCH/BMIPic.png);">
   <div class="frame">
-    <h2>Last moon, first sun</h2>
+    <h2>BMI Calculator</h2>
   </div>
 </div>
     </div>
+    <div class="p-3 text-center">
+      <ul class="row">
+       <li class="col-lg-6"><a href="https://deluxe-meerkat-e28b3a.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
+       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/BMI-Calculator" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+      </ul>
+    </div>
    </div>
   
+
    <div class="col-md-4">
     <div class="dcard">
     <div class="trigger"></div>
@@ -40,13 +49,20 @@
     <div class="trigger"></div>
     <div class="trigger"></div>
     
-<div class="paracard" style="background-image: url(https://images.unsplash.com/photo-1568021735466-efd8a4c435af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80);">
+<div class="paracard" style="background-image: url(https://i.postimg.cc/RCgXG0KM/ToDoPic.png);">
   <div class="frame">
-    <h2>Aurora’s Dance</h2>
+    <h2>To Do List</h2>
   </div>
 </div>
     </div>
+     <div class="p-3 text-center">
+      <ul class="row">
+       <li class="col-lg-6"><a href="https://melodious-basbousa-7123f3.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
+       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/ToDo" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+      </ul>
+    </div>
    </div>
+
   
   <div class="col-md-4">
     <div class="dcard">
@@ -60,11 +76,102 @@
     <div class="trigger"></div>
     <div class="trigger"></div>
     
-<div class="paracard" style="background-image: url(https://images.unsplash.com/photo-1563759553854-95ea771b8932?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1248&q=80);">
+<div class="paracard" style="background-image: url(https://i.postimg.cc/FH3btFdk/Temp-Conv-Pic.png);">
   <div class="frame">
-    <h2>White Pocket Sunrise</h2>
+    <h2>Temperature Converter</h2>
   </div>
 </div>
+    </div>
+     <div class="p-3 text-center">
+      <ul class="row">
+       <li class="col-lg-6"><a href="https://fastidious-alfajores-791abd.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
+       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/Temperature-Converter" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+      </ul>
+    </div>
+   </div>
+  
+  
+  </div>
+
+  <div class="row mt-5">
+  
+  <div class="col-md-4">
+    <div class="dcard">
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    
+<div class="paracard" style="background-image: url(https://i.postimg.cc/ydmMb4Km/Real-Estate.png);">
+  <div class="frame">
+    <h2>Real Estate Website</h2>
+  </div>
+</div>
+    </div>
+    <div class="p-3 text-center">
+      <ul class="row">
+       <li class="col-lg-6"><a href="https://genuine-salmiakki-e37077.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
+       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/Property-Listing" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+      </ul>
+    </div>
+   </div>
+  
+
+   <div class="col-md-4">
+    <div class="dcard">
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    
+<div class="paracard" style="background-image: url(https://i.postimg.cc/PJMGFnWg/Calculator-Pic.png);">
+  <div class="frame">
+    <h2>JS Calculator</h2>
+  </div>
+</div>
+    </div>
+     <div class="p-3 text-center">
+      <ul class="row">
+       <li class="col-lg-6"><a href="https://cheerful-taffy-28a46f.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
+       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/Javascript-Calculator" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+      </ul>
+    </div>
+   </div>
+
+  
+  <div class="col-md-4">
+    <div class="dcard">
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    <div class="trigger"></div>
+    
+<div class="paracard" style="background-image: url(https://i.postimg.cc/1XvCqmc3/Portfolio-Pic.png);">
+  <div class="frame">
+    <h2>HTML Portfolio</h2>
+  </div>
+</div>
+    </div>
+     <div class="p-3 text-center">
+      <ul class="row">
+       <li class="col-lg-6"><a href="https://transcendent-sprinkles-c04491.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-4x"></i></a></li>
+       <li  class="col-lg-6"><a href="https://github.com/Raaid-Latief/portfolio-project" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a></li>
+      </ul>
     </div>
    </div>
   
@@ -119,43 +226,23 @@
     </div> -->
 </template>
 <script>
-export default {
-    name: "Projects",
-    data() {
-      return {
-        projects: [
-          {
-            id: 1,
-            title: "BMI",
-            img: "",
-            info: "fhfhie",
-            Linkedin: "dded",
-            Github: "dsdsds",
-          },
-          {
-id: 2,
-            title: "Hello",
-            img: "",
-            info: "fhfhie",
-            Linkedin: "dded",
-            Github: "dsdsds",
-          }
-          
-            
 
-          
-      ]
-      }
-    },
-};
 </script>
 <style scoped>
 html,body {
-	 padding: 50px 0px;
+
 	 background-color: rgba(0, 0, 0, 0.7);
+      overflow-x: hidden;
+}body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
  * {
 	 transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+
 }
  h1 {
 	 display: block;
@@ -163,6 +250,20 @@ html,body {
 	 color: #fff;
 	 text-align: center;
 }
+
+/* Project Buttons */
+ul{
+  list-style-type: none;
+}
+
+.projheading{
+  font-family: 'Playfair Display', serif;
+    color: #000; 
+    color: rgba(112, 0, 0, 0.5);
+
+    font-size: 45pt;
+}
+
  .intro p {
 	 color: #fff;
 	 text-align: center;

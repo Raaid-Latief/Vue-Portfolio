@@ -52,7 +52,7 @@ h1{
     color: #000; /* Fallback for older browsers */
     color: rgba(112, 0, 0, 0.5);
 
-    font-size: 98pt;
+    font-size: 80pt;
 
 }
 .HomeBtn{
@@ -113,8 +113,6 @@ margin: 0px;
 }
 
 </style>
-
-
 
 
 
