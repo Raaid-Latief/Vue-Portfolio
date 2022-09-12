@@ -5,7 +5,7 @@
 
 
 <button data-bs-toggle="modal" class="btn" data-bs-target="#exampleModal">
-<div class="float">
+    <div class="float">
 <i class="fa-solid fa-phone-flip my-float"></i>
 </div>
 </button>

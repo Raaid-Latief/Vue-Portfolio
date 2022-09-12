@@ -2,7 +2,7 @@
 <br>
 <br>
 <br>
-
+<section class="home">
   <div>
 <h1 class="text-center mt-5">Im Raaid</h1>
 <h2 class="text-center mt-5"> Aspiring Web Developer</h2>
@@ -10,28 +10,28 @@
  <div class="text-center display-4 text-danger mt-5">
             <i class="fa-solid fa-code fa-beat" ></i>
             </div>
+            <div class="padding">
 <div class="HomeBtn">
  <router-link to="/about"><button class="custom-btn btn-2 text-center mb-1">Take a tour!</button></router-link>
 </div>
-
-
+</div>
+</section>
 </template>
 <script>
 
 </script>
 <style scoped>
 
-
-
-
-
-body{
-
-background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
+.home{
+  background-image: url(https://i.postimg.cc/85qL5vN4/127068-statue-dark-Ancient-Greek-sculpture-simple-background.jpg);
+  padding-top: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  }
+     background-size: cover;
+     overflow-x: hidden;
+
+}
+
 
     
 h1{
@@ -50,6 +50,10 @@ h2{
 
     font-size: 60px;
 }
+
+.padding{
+  padding-bottom: 357px;
+}
 .HomeBtn{
   display: flex;
   justify-content: center;
@@ -63,9 +67,7 @@ h2{
   margin: 50px auto;
   text-align: center;
 }
-button {
-margin: 0px;
-}
+
 .custom-btn {
   padding: 10px 25px;
   font-family: "Roboto", sans-serif;
@@ -105,6 +107,10 @@ margin: 0px;
 }
 .btn-2:hover:after {
   width: 100%;
+}
+
+.fa-code{
+  color: black;
 }
 
 </style>
