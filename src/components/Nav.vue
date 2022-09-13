@@ -9,7 +9,7 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-                <li> <router-link to="/Home">Home</router-link> </li>
+                <li> <router-link to="/">Home</router-link> </li>
                 <li><router-link to="/about">About</router-link></li>
               <li> <router-link to="/Projects">Project Gallery</router-link></li>
             </ul>
