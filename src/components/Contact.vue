@@ -148,7 +148,7 @@ img{
 }
 
 .form-control{
-    background-color: #000;
+    background-color: white;
 }
 
 .send-btn{
