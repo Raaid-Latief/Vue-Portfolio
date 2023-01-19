@@ -107,7 +107,7 @@
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>Personal Achievments</h3>
+         <h3>Personal Achievements</h3>
          <span>Notable achievemts</span>
          <p>110KG bench press and 175KG squat, Completed basics of UX/UI Google Design Certificate. Prefect and class rep in Grade 12 in Highschool</p>
       </div>
@@ -370,7 +370,7 @@ h1 span {
 .timeline-content {
    width: 95%;
    padding: 0 15px;
-   color: #666
+   color: grey
 }
 
 .timeline-content h3 {
@@ -382,14 +382,14 @@ h1 span {
 
 .timeline-content span {
    font-size: 15px;
-   color: #a4a4a4;
+   color: white;
 }
 
 .timeline-content p {
    font-size: 14px;
    line-height: 1.5em;
    word-spacing: 1px;
-   color: #888;
+   color: white;
 }
 
 
