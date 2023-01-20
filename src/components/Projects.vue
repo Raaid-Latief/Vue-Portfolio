@@ -194,6 +194,11 @@ body {
     overflow-x: hidden !important;
     padding-left: 10%;
     padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    /* background-color: black; */
+    box-shadow: 10px 10px;
+  
 }
  * {
 	 transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);

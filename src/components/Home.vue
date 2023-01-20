@@ -26,6 +26,7 @@
   background-attachment: fixed;
      background-size: cover;
      overflow-x: hidden;
+     overflow-y: hidden;
 
 }
 
