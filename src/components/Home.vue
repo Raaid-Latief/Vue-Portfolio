@@ -4,7 +4,7 @@
 <br>
 <section class="home">
   <div>
-<h1 class="text-center mt-5">Im Raaid</h1>
+<h1 class="text-center mt-5">Im Raaid Abdullatief</h1>
 <h2 class="text-center mt-5"> Aspiring Web Developer</h2>
 </div>
  <div class="text-center display-4 text-danger mt-5">
