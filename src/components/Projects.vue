@@ -8,6 +8,7 @@
  <h1 class="projheading p-2 text-center">Welcome to my Project Gallery</h1>
  </div>
   
+ <div class="container">
 <div class="row mt-5">
   
   <div class="col-md-4">
@@ -177,6 +178,7 @@
   
   
   </div>
+  </div>
 </template>
 <script>
 
@@ -190,6 +192,13 @@ body {
 .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    /* background-color: black; */
+    box-shadow: 10px 10px;
+  
 }
  * {
 	 transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -369,21 +378,27 @@ ul{
  .buttons a:hover {
 	 text-decoration: none;
 	 border-bottom: 2px solid #88bcf5;
+
 }
 
 .fa-brands{
     color:#18cc9d;
+   
 }
 
 .fa-solid{
      color:#18cc9d;
-}
+     /* background: #ff0000;
+     background-size: 50%;
+     /* padding: 5px; */
+} 
 
 .fa-brands:hover{
-  color: #9d18cc;
+  color: black;
 }
 .fa-solid:hover{
-  color: #9d18cc;
+  color: black;
+
 }
 
 </style>

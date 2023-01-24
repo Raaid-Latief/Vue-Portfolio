@@ -1,7 +1,4 @@
 <template>
-<br>
-<br>
-<br>
 <section class="home">
   <div>
 <h1 class="text-center mt-5">Im Raaid Abdullatief</h1>
@@ -29,6 +26,7 @@
   background-attachment: fixed;
      background-size: cover;
      overflow-x: hidden;
+     overflow-y: hidden;
 
 }
 

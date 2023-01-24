@@ -27,7 +27,7 @@
 <section id="creative" class="creative">
     <div class="containerPassions p-5 text-center">
         <h2 class="text-center passions-head"  data-aos="fade-down" data-aos-once="true" data-aos-duration="800">My Passions</h2>
-        <p class="text-center mb-5" data-aos="fade-down" data-aos-once="true" data-aos-duration="1200">The passions that keep me going</p>
+       
      
     <div class="row">
       <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="1400">
@@ -87,7 +87,7 @@
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>2021 - 2022</h3>
+         <h3>2022 - 2021</h3>
          <span>Pointer South Africa</span>
          <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved in vehicle tracking. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
       </div>
@@ -107,7 +107,7 @@
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>Personal Achievments</h3>
+         <h3>Personal Achievements</h3>
          <span>Notable achievemts</span>
          <p>110KG bench press and 175KG squat, Completed basics of UX/UI Google Design Certificate. Prefect and class rep in Grade 12 in Highschool</p>
       </div>
@@ -193,19 +193,20 @@ name: "About",
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.about{
+   overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 /* About me box */
 .aboutHead{
   font-family: 'Playfair Display', serif;
    color:  #cc9d18;
      text-shadow: 1px 1px 0px #ff0000;
-     
     font-size: 80pt;
 }
 #about-me-box {
 	margin: 50px 0;
 	background-color: #fff; 
-	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+   
 	display: block;
 	padding: 0 10px 0 0;
  background-color: black;
@@ -218,15 +219,18 @@ name: "About",
 	font-size: 14px;
 }
 .aboutMe{
-   font-size: 700;
+   font-size: 900;
    color: rgb(0, 0, 0);
+   margin-top: 14%;
+   margin-right: 14%;
+   
 }
 .aboutMeHead{
   font-size: 900;
 }
 .raaid {
 	width: 70%;	
-   padding-left: 70px;
+   padding-left: 20%;
    }
 .passions{
    font-size: 14px;
@@ -235,6 +239,10 @@ name: "About",
 font-size: 12px;
 }
 
+
+.container1{
+   padding: 20px;
+}
 
 
 
@@ -295,6 +303,7 @@ body {
    padding: 30px 0;
    font-family: 'Roboto', sans-serif;
    background: #F1F2F6;
+   
 }
 
 h1 {
@@ -318,6 +327,7 @@ h1 span {
    margin: 50px auto;
    position: relative;
    overflow: hidden;
+   box-shadow: 10px 10px grey;
    background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
 }
 
@@ -370,7 +380,7 @@ h1 span {
 .timeline-content {
    width: 95%;
    padding: 0 15px;
-   color: #666
+   color: grey
 }
 
 .timeline-content h3 {
@@ -382,14 +392,14 @@ h1 span {
 
 .timeline-content span {
    font-size: 15px;
-   color: #a4a4a4;
+   color: white;
 }
 
 .timeline-content p {
    font-size: 14px;
    line-height: 1.5em;
    word-spacing: 1px;
-   color: #888;
+   color: white;
 }
 
 
