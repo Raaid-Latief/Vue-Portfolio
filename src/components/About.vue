@@ -116,7 +116,7 @@
 </div>
  
 <!-- Testimmonial Slider -->
-<div>
+<!-- <div>
     <section class="testimonial text-center">
         <div class="container1">
 
@@ -180,7 +180,74 @@
 
     
 
+</div> -->
+<div>
+   <div class="testimonials">
+    <!-- CARD 1 START-->
+    <div class="card">
+      <div class="layer"></div>
+      <div class="content">
+        <p>Shreya shreyu is a senior staff information architect at Etsy and specialises in delivering collaborative information architecture processes, as well as teaching those that she works with along the way.</p>
+        <div class="image">
+          <img src="https://images.wikia.nocookie.net/__cb15/bobmarley/images/8/89/Wiki-wordmark.png" alt="">
+        </div>
+        <div class="details">
+          <h2>
+            Someone Famous <br>
+            <span>SOMEONE FAMOUS ARTIST</span>            
+          </h2>
+			   <button onclick="window.location.href='https://w3docs.com';">
+      Click Here
+    </button>
+        </div>
+      </div>
+    </div>
+    <!-- CARD 1 end-->
+    
+    <!-- CARD 2 START-->
+    <div class="card">
+      <div class="layer"></div>
+      <div class="content">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Quis nostrum deleniti nemo repellat. 
+          Id, aliquid necessitatibus perferendis praesentium itaque doloribus molestias quaerat a deleniti distinctio voluptate, 
+          reprehenderit omnis, dolorem ratione.</p>
+        <div class="image">
+          <img src="https://www.shareicon.net/data/128x128/2016/03/21/737194_people_512x512.png" alt="">
+        </div>
+        <div class="details">
+          <h2>
+            Someone Famous 2 <br>
+            <span>SOMEONE FAMOUS WEB DEV</span>            
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- CARD 2 end-->
+    <!-- CARD 3 START-->
+    <div class="card">
+      <div class="layer"></div>
+      <div class="content">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum deleniti nemo repellat. 
+          Id, aliquid necessitatibus perferendis praesentium itaque doloribus molestias quaerat a deleniti distinctio voluptate, 
+          reprehenderit omnis, dolorem ratione.</p>
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Female_portrait_placeholder_cropped.jpg" alt="">
+        </div>
+        <div class="details">
+          <h2>
+            Someone Famous 3 <br>
+            <span>FRONT-END ENGINEER</span>            
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- CARD 3 end-->
+  </div>
+
 </div>
+
+
     
 </template>
 
@@ -423,244 +490,77 @@ h1 span {
 }
 
 
-
 /* Testimonial */
-.heading {
- font-family: 'Playfair Display', serif;
-   color:  #cc9d18;
-     text-shadow: 1px 1px 0px #ff0000;
-     
-    font-size: 40pt;
+.testimonials{
+	margin:200px auto 100px;
+	display:grid;
+	grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+	grid-gap:20px;
 }
-.white-heading{
-    color:  #cc9d18;
+.testimonials .card{
+	position:relative;
+	width:350px;
+	margin:0 auto;
+	background:#333;
+	padding:20px;
+	box-sizing: border-box;
+	text-align:center;
+	box-shadow:0 10px 40px rgba(0,0,0,.5);
+	overflow: hidden;
 }
-.heading:after {
-    content: ' ';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    height: 40px;
-    width: 180px;
-    border-radius: 4px;
-    transform: translateX(-50%);
-   
-    background-repeat: no-repeat;
-    background-position: center;
+.testimonials .card .layer{
+	position: absolute;
+	top: calc(100% - 3px);
+	width:100%;
+	height:100%;
+	left:0;
+	background:black;
+	z-index:1;
+	transition:0.5s;
+}
+.testimonials .card:hover .layer{
+	top:0;
+}
+.testimonials .card .content{
+	position:relative;
+	z-index:2;
+}
+.testimonials .card .content p{
+	font-size:18px;
+	line-height:24px;
+	color:#FFF;
+}
+.testimonials .card .content .image{
+	width:100px;
+	height:100px;
+	margin: 0 auto;
+	border-radius:50%;
+	overflow:hidden;
+	
+}
+.testimonials .card .content .details h2{
+	font-size:15px;
+	color:#fff;
+}
+.testimonials .card .content .details h2 span{
+	color:#03a9f4;
+	font-size:12px;
+	transtion:0.5s;
+}
+.testimonials .card:hover .content .details h2 span{
+	color:#fff;
+}
+.testimonials .card .content .details p span{
+   color:#03a9f4;
+	font-size:12px;
+	transtion:0.5s;
+
 }
 
-.fonts{
-   color: #4FC1E9;
-   text-shadow: black;
-}
-.white-heading:after {
 
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.heading span {
-    font-size: 18px;
-    display: block;
-    font-weight: 500;
-}
-.white-heading span {
-    color: #610000;
-}
 
-/*-----Testimonial-------*/
 
-.testimonial:after {
-    position: absolute;
-    top: -0 !important;
-    left: 0;
-    content: " ";
-   
-    background-size: 100% 100px;
-    width: 100%;
-    height: 100px;
-    float: left;
-    z-index: 99;
-}
-
-.testimonial {
-    min-height: 375px;
-    position: relative;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-position: center;
-        background-size: cover;
-       background-color: black;
-}
-#testimonial4 .carousel-inner:hover{
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
-}
-#testimonial4 .carousel-inner:active{
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
-}
-#testimonial4 .carousel-inner .item{
-  overflow: hidden;
-}
-
-.testimonial4_indicators .carousel-indicators{
-  left: 0;
-  margin: 0;
-  width: 100%;
-  font-size: 0;
-  height: 20px;
-  bottom: 15px;
-  padding: 0 5px;
-  cursor: e-resize;
-  overflow-x: auto;
-  overflow-y: hidden;
-  position: absolute;
-  text-align: center;
-  white-space: nowrap;
-}
-.testimonial4_indicators .carousel-indicators li{
-  padding: 0;
-  width: 14px;
-  height: 14px;
-  border: none;
-  text-indent: 0;
-  margin: 2px 3px;
-  cursor: pointer;
-  display: inline-block;
-  background: #571212;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
-.testimonial4_indicators .carousel-indicators .active{
-  padding: 0;
-  width: 14px;
-  height: 14px;
-  border: none;
-  margin: 2px 3px;
-  background-color: #9dd3af;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
-.testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
-  height: 3px;
-}
-.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
-  background: #eeeeee;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-
-.testimonial4_control_button .carousel-control{
-  top: 175px;
-  opacity: 1;
-  width: 40px;
-  bottom: auto;
-  height: 40px;
-  font-size: 10px;
-  cursor: pointer;
-  font-weight: 700;
-  overflow: hidden;
-  line-height: 38px;
-  text-shadow: none;
-  text-align: center;
-  position: absolute;
-  background: transparent;
-  border: 2px solid #ffffff;
-  text-transform: uppercase;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
-  transition: all 0.6s cubic-bezier(0.3,1,0,1);
-}
-.testimonial4_control_button .carousel-control.left{
-  left: 7%;
-  top: 50%;
-  right: auto;
-}
-.testimonial4_control_button .carousel-control.right{
-  right: 7%;
-  top: 50%;
-  left: auto;
-}
-.testimonial4_control_button .carousel-control.left:hover,
-.testimonial4_control_button .carousel-control.right:hover{
-  color: rgb(255, 0, 0);
-  background: rgb(255, 0, 0);
-  border: 2px solid rgb(255, 0, 0);
-}
-
-.testimonial4_header{
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 550px;
-  display: block;
-  margin: 30px auto;
-  text-align: center;
-  position: relative;
-}
-.testimonial4_header h4{
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.testimonial4_slide{
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 70%;
-  margin: auto;
-  padding: 20px;
-  position: relative;
-  text-align: center;
-}
-.testimonial4_slide img {
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 140px;
-    height: 110px;
-    margin: auto;
-    display: block;
-    color: #f2f2f2;
-    font-size: 18px;
-    line-height: 46px;
-    text-align: center;
-    position: relative;
-    border-radius: 50%;
-    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-}
-.testimonial4_slide p {
-    color: #ffffff;
-    font-size: 25px;
-    line-height: 1.4;
-    margin: 40px 0 20px 0;
-    text-shadow: rgb(134, 15, 15);
-}
-.testimonial4_slide h4 {
-  color: #ffffff;
-  font-size: 22px;
-}
-
-.testimonial .carousel {
-	padding-bottom:50px;
-}
-.testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
-    width: 35px;
-    height: 35px;
-}
 /* ------testimonial  close-------*/
 
 </style>
