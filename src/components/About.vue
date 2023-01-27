@@ -187,7 +187,7 @@
     <div class="card">
       <div class="layer"></div>
       <div class="content">
-        <p>Shreya shreyu is a senior staff information architect at Etsy and specialises in delivering collaborative information architecture processes, as well as teaching those that she works with along the way.</p>
+        <p class="testpar">Shreya shreyu is a senior staff information architect at Etsy and specialises in delivering collaborative information architecture processes, as well as teaching those that she works with along the way.</p>
         <div class="image">
           <img src="https://images.wikia.nocookie.net/__cb15/bobmarley/images/8/89/Wiki-wordmark.png" alt="">
         </div>
@@ -208,7 +208,7 @@
     <div class="card">
       <div class="layer"></div>
       <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        <p class="testpar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Quis nostrum deleniti nemo repellat. 
           Id, aliquid necessitatibus perferendis praesentium itaque doloribus molestias quaerat a deleniti distinctio voluptate, 
           reprehenderit omnis, dolorem ratione.</p>
@@ -228,7 +228,7 @@
     <div class="card">
       <div class="layer"></div>
       <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum deleniti nemo repellat. 
+        <p class="textpar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum deleniti nemo repellat. 
           Id, aliquid necessitatibus perferendis praesentium itaque doloribus molestias quaerat a deleniti distinctio voluptate, 
           reprehenderit omnis, dolorem ratione.</p>
         <div class="image">
@@ -528,7 +528,14 @@ h1 span {
 .testimonials .card .content p{
 	font-size:18px;
 	line-height:24px;
-	color:#FFF;
+	color:blue;
+}
+
+.testimonials .card:hover .content p{
+	font-size:18px;
+	line-height:24px;
+	color:white;
+   transition: 0.3s;
 }
 .testimonials .card .content .image{
 	width:100px;
@@ -550,12 +557,7 @@ h1 span {
 .testimonials .card:hover .content .details h2 span{
 	color:#fff;
 }
-.testimonials .card .content .details p span{
-   color:#03a9f4;
-	font-size:12px;
-	transtion:0.5s;
 
-}
 
 
 
