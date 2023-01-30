@@ -91,6 +91,7 @@ export default {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar a:hover{

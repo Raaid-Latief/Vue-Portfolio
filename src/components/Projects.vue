@@ -382,22 +382,22 @@ ul{
 }
 
 .fa-brands{
-    color:#18cc9d;
+    color:red;
    
 }
 
 .fa-solid{
-     color:#18cc9d;
+     color:red;
      /* background: #ff0000;
      background-size: 50%;
      /* padding: 5px; */
 } 
 
 .fa-brands:hover{
-  color: black;
+  color: yellow;
 }
 .fa-solid:hover{
-  color: black;
+  color: yellow;
 
 }
 

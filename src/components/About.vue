@@ -14,7 +14,7 @@
 <h1 class="">Summary</h1>
 <p class="summary">I'm a hard-working and passionate person. I love seeing progress, and if I am committed to something, I make sure to go all out.</p>
     <p class="summary">I'm not afraid of failure because there's always room to improve. I am gentle and always willing to advise as I love seeing people succeed.</p>
-    <p class="summary">Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. This motivated me to pursue this field of work</p>
+    <p class="summary">Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. This motivated me to pursue this field of work.</p>
 
 
 </div>
@@ -26,31 +26,31 @@
   <div class="row1">
         <div class="block">
          <div class="row">
-        <div class="col-md-6">
+        <div>
         <img class="ux" src="https://i.postimg.cc/T1KwctCP/ux-design-cert.png" alt="">
         </div>
-        <div class="col-md-6">
-         <p class="edu">Google Basics of UX Design Certificate</p>
+        <div>
+         <p class="edu">Google Basics of UX Design Certificate - UX Design</p>
         </div>
       </div>
         </div>
         <div class="block">
          <div class="row">
-        <div class="col-md-6">
+        <div>
         <img class="lc" src="https://i.postimg.cc/d3jrTstY/lc_logo.png" alt="">
         </div>
-        <div class="col-md-6">
-         <p class="edu">Life Choices Academy</p>
+        <div>
+         <p class="edu">Life Choices Academy - Web Development</p>
         </div>
       </div>
         </div>
         <div class="block">
          <div class="row">
-        <div class="col-md-6">
-        <img class="claremont" src="https://i.postimg.cc/d0zJGGL2/claremont-high.png" alt="">
+        <div>
+        <img class="grizzly" src="https://i.postimg.cc/zG1Xwg0r/grizzly.png" alt="">
         </div>
-        <div class="col-md-6">
-         <p class="edu">Claremont Highschool</p>
+        <div>
+         <p class="edu1">Grizzly New Marketing - Search Engine Optimisation</p>
         </div>
       </div>
         </div>
@@ -69,22 +69,19 @@
  </section>
 
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 
 
 
 <!-- Start of resume -->
-<h1 class="resumetitle"><span>My Resume</span></h1>
+
+<div class="pt-5">
+<h1 class="timelinehead">A timeline of events</h1>
+</div>
 
 
 <div class="container">
-
    <div class="timeline-block timeline-block-right">
       <div class="marker"></div>
       <div class="timeline-content">
@@ -118,7 +115,7 @@
       <div class="marker"></div>
       <div class="timeline-content">
          <h3>Personal Achievements</h3>
-         <span>Notable achievemts</span>
+         <span>Notable achievements</span>
          <p>110KG bench press and 175KG squat, Completed basics of UX/UI Google Design Certificate. Prefect and class rep in Grade 12 in Highschool</p>
       </div>
    </div>
@@ -274,9 +271,10 @@ name: "About",
 .summary {
    margin: auto;
   /* padding-block: 3px; */
-  padding-left: 5%;
-  padding-right: 5%;
-   font-size: 1.6vw;
+  padding-left: 15%;
+  padding-right: 15%;
+   font-size: 1.5em;
+   font-family: 'Poppins', sans-serif;;
 }
 
 
@@ -304,11 +302,13 @@ section[role="main"] {
 .block {
   background: red;
   display: block;
+  border-radius: 1%;
   width: 31%;
   height: 220px;
   float: left;
   margin: 2% 1% 2% 0%;
   padding: 2%
+  
 }
 /* .block:first-child {
   margin: 2% 1% 2% 1%;
@@ -323,18 +323,42 @@ section[role="main"] {
 
 .edu{
    color: yellow;
+   font-family: 'Poppins', sans-serif;
+   padding-top: 3%;
+   padding-left: 3%;
 }
+
+.edu1{
+   color: yellow;
+   font-family: 'Poppins', sans-serif;
+   padding-top: 8%; 
+   padding-left: 3%;  
+}
+
 .ux{
-   width: 8vw;
+   width: 10em;
+   border-radius: 3px;
+   height: auto;
+   padding-top: 1%;
+   padding-left: 3%;
 }
 
 .lc{
-   width: 9vw;
+   width: 10em;
+        border-radius: 3px;
+        height: auto;
+        padding-top: 1%;
+        padding-left: 3%;
 }
 
-.claremont{
-height: 4vw;
+.grizzly{
+height: 9em;
+border-radius: 3px;
+height: auto;
+padding-top: 1%;
+padding-left: 3%;
 }
+
 
 
 
@@ -460,10 +484,12 @@ body {
 }
 
 h1 {
-   text-align: center;
-   font-weight: 300;
+  padding-left: 14.7%;
+   font-weight: 5vw ;
   color:  #cc9d18;
      text-shadow: 1px 1px 0px #ff0000;
+     font-family: 'Poppins', sans-serif;
+     
      
 }
 
@@ -614,6 +640,7 @@ h1 span {
 	font-size:18px;
 	line-height:24px;
 	color:black;
+   font-family: 'Poppins', sans-serif;
 }
 
 .testimonials .card:hover .content p{
