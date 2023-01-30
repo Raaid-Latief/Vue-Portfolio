@@ -87,14 +87,14 @@ export default {
 }
 
 .navbar a{
-    color:#18cc9d;
+    color:red;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
-    color:black;
+    color:yellow;
 }
 
 @media (max-width: 768px){
@@ -143,7 +143,7 @@ export default {
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #18cc9d;
+        background: red;
     }
     
     .navbar-container .hamburger-lines .line1{

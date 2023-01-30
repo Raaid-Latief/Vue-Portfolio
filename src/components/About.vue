@@ -5,72 +5,82 @@
 <br>
 <br>
 <div class="about">
-  <h1 class="aboutHead">This is me</h1>
+  <!-- <h1 class="aboutHead">This is me</h1>
+ -->
 
-  <div>		
-		<section id="about-me">
-			<div class="container1">
-				<div class="row">
-					<div class="col-md-12">
-						<div id="about-me-box">
-							<div class="row">
-								<div class="col-md-6 col-xs-12">
-									<img class="raaid max-width-xs" src="https://i.postimg.cc/2SRFKFLd/Raaid-4-removebg-preview.png" />
-								</div><!-- end col-md-7 -->
-								<div class="col-md-6 col-xs-12">
-									
-									<p class="aboutMe">I'm a hard-working and passionate person. I love seeing progress, and if I am committed to something, I make sure to go all out. I'm not afraid of failure because there's always room to improve. I am gentle and always willing to advise as I love seeing people succeed. 
-    Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. I did an IT learnership last year and had to drop out as I preferred to be the one developing the websites. This motivated me to pursue this field of work.</p>
-								
+    
 
-                        <!-- Passions -->
-<section id="creative" class="creative">
-    <div class="containerPassions p-5 text-center">
-        <h2 class="text-center passions-head"  data-aos="fade-down" data-aos-once="true" data-aos-duration="800">My Passions</h2>
-       
-     
-    <div class="row">
-      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="1400">
-        <i class="fa-solid fa-gamepad fa-4x"></i>
-        <h5 class="passions p-2">Videogames and Tech</h5>
-        <p class="passions1">Gaming sparked my love for technology. It was only right that I pursued my passion for technology by learning to code. </p>
+<div class="about1">
+<h1 class="">Summary</h1>
+<p class="summary">I'm a hard-working and passionate person. I love seeing progress, and if I am committed to something, I make sure to go all out.</p>
+    <p class="summary">I'm not afraid of failure because there's always room to improve. I am gentle and always willing to advise as I love seeing people succeed.</p>
+    <p class="summary">Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. This motivated me to pursue this field of work</p>
+
+
+</div>
+<!-- end of summary -->
+
+<div class="mypassions">
+
+   <section role="main">
+  <div class="row1">
+        <div class="block">
+         <div class="row">
+        <div class="col-md-6">
+        <img class="ux" src="https://i.postimg.cc/T1KwctCP/ux-design-cert.png" alt="">
+        </div>
+        <div class="col-md-6">
+         <p class="edu">Google Basics of UX Design Certificate</p>
+        </div>
       </div>
-
-
-      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="2200">
-        <i class="fa-solid fa-headphones fa-4x"></i>
-        <h5 class="passions p-2">Music</h5>
-        <p class="passions1">Music makes Mondays amazing.</p>
+        </div>
+        <div class="block">
+         <div class="row">
+        <div class="col-md-6">
+        <img class="lc" src="https://i.postimg.cc/d3jrTstY/lc_logo.png" alt="">
+        </div>
+        <div class="col-md-6">
+         <p class="edu">Life Choices Academy</p>
+        </div>
       </div>
-
-      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="3000">
-        <i class="fa-solid fa-dumbbell fa-4x"></i>
-        <h5 class="passions p-2">Bodybuilding and Powerlifting</h5>
-        <p class="passions1">"It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable.”- Socrates</p>
+        </div>
+        <div class="block">
+         <div class="row">
+        <div class="col-md-6">
+        <img class="claremont" src="https://i.postimg.cc/d0zJGGL2/claremont-high.png" alt="">
+        </div>
+        <div class="col-md-6">
+         <p class="edu">Claremont Highschool</p>
+        </div>
       </div>
+        </div>
+  </div>
+  <!-- <div class="row1">
+        <div class="block">
 
-      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="5500">
-        <i class="fa-regular fa-pen-to-square fa-4x"></i>
-        <h5 class="passions p-2">Poetry and Writing</h5>
-        <p class="passions1">Languages are they keystones to communication. If the intricacies of words we use everyday do not interest you, you must be a mute.</p>
-      </div>
+        </div>
+        <div class="block">
 
-    </div>   
-    </div>
-</section>
-                        
-                        </div><!-- end col-md-5-->
-							</div><!--end row -->
-						</div><!-- end about-me-box -->
-					</div><!-- end col-md-12-->
-				</div><!-- end row-->
-			</div><!-- end container -->
-		</section>
-		</div>
+        </div>
+        <div class="block">
+
+        </div>
+  </div> -->
+ </section>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 
 <!-- Start of resume -->
-<h1 class="resumetitle">My <span>Resume</span></h1>
+<h1 class="resumetitle"><span>My Resume</span></h1>
 
 
 <div class="container">
@@ -80,14 +90,14 @@
       <div class="timeline-content">
          <h3>2016 - 2020</h3>
          <span>Highschool</span>
-         <p class="aboutMe">Passed Matric in 2020, the height of the pandemic, with a Bachelors Pass. Attended Highschool at Claremont Highschool.</p>
+         <p>Passed Matric in 2020, the height of the pandemic, with a Bachelors Pass. Attended Highschool at Claremont Highschool.</p>
       </div>
    </div>
 
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>2022 - 2021</h3>
+         <h3>2021 - 2022</h3>
          <span>Pointer South Africa</span>
          <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved in vehicle tracking. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
       </div>
@@ -196,9 +206,8 @@
             Jason Wandrag <br>
             <span>Senior Developer, Lecturer</span>            
           </h2>
-			   <button onclick="window.location.href='https://w3docs.com';">
-      Click Here
-    </button>
+          <a href="https://github.com/Raaid-Latief/portfolio-project" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+			  
         </div>
       </div>
     </div>
@@ -255,6 +264,88 @@ name: "About",
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+/* About 2nd try */
+
+.about1{
+   margin: auto;
+}
+
+.summary {
+   margin: auto;
+  /* padding-block: 3px; */
+  padding-left: 5%;
+  padding-right: 5%;
+   font-size: 1.6vw;
+}
+
+
+/* Passions */
+.mypassions{
+
+}
+
+
+
+section[role="main"] {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.row1 {
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+  height: 190px;
+  clear: both;
+}
+.block {
+  background: red;
+  display: block;
+  width: 31%;
+  height: 220px;
+  float: left;
+  margin: 2% 1% 2% 0%;
+  padding: 2%
+}
+/* .block:first-child {
+  margin: 2% 1% 2% 1%;
+} */
+
+@media (max-width: 710px)  {
+  
+.block {
+  width: 100%;
+}
+}
+
+.edu{
+   color: yellow;
+}
+.ux{
+   width: 8vw;
+}
+
+.lc{
+   width: 9vw;
+}
+
+.claremont{
+height: 4vw;
+}
+
+
+
+
+
+
+
+
+/* About 2nd try end */
+
+
 .about{
    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
@@ -384,12 +475,12 @@ h1 span {
 }
 
 .container {
-   width: 80%;
+   width: 100%;
    padding: 50px 0;
-   margin: 50px auto;
+   margin: auto;
    position: relative;
    overflow: hidden;
-   box-shadow: 10px 10px grey;
+   /* box-shadow: 10px 10px grey; */
    background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
 }
 
@@ -398,7 +489,6 @@ h1 span {
    position: absolute;
    top: 0;
    left: 50%;
-   margin-left: -1px;
    width: 2px;
    height: 100%;
    background: #CCD1D9;
@@ -434,7 +524,7 @@ h1 span {
    height: 16px;
    border-radius: 50%;
    border: 2px solid #F5F7FA;
-   background: #4FC1E9;
+   background: yellow;
    margin-top: 10px;
    z-index: 1
 }
@@ -496,7 +586,7 @@ h1 span {
 	position:relative;
 	width:350px;
 	margin:0 auto;
-	background:#333;
+	background:white;
 	padding:20px;
 	box-sizing: border-box;
 	text-align:center;
@@ -509,7 +599,7 @@ h1 span {
 	width:100%;
 	height:100%;
 	left:0;
-	background:black;
+	background: red;
 	z-index:1;
 	transition:0.5s;
 }
@@ -523,13 +613,13 @@ h1 span {
 .testimonials .card .content p{
 	font-size:18px;
 	line-height:24px;
-	color:blue;
+	color:black;
 }
 
 .testimonials .card:hover .content p{
 	font-size:18px;
 	line-height:24px;
-	color:white;
+	color:yellow;
    transition: 0.3s;
 }
 .testimonials .card .content .image{
@@ -552,6 +642,17 @@ h1 span {
 .testimonials .card:hover .content .details h2 span{
 	color:#fff;
 }
+
+.fa-brands{
+    color: black;
+   
+}
+
+
+.fa-brands:hover{
+  color: yellow;
+}
+
 
 
 
