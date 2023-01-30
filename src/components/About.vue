@@ -187,14 +187,14 @@
     <div class="card">
       <div class="layer"></div>
       <div class="content">
-        <p class="testpar">Shreya shreyu is a senior staff information architect at Etsy and specialises in delivering collaborative information architecture processes, as well as teaching those that she works with along the way.</p>
+        <p class="testpar">"I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
         <div class="image">
-          <img src="https://images.wikia.nocookie.net/__cb15/bobmarley/images/8/89/Wiki-wordmark.png" alt="">
+          <img src="https://i.postimg.cc/QMJLwQFk/IMG-20220511-WA0005-adobe-express-removebg-preview.png" alt="">
         </div>
         <div class="details">
           <h2>
-            Someone Famous <br>
-            <span>SOMEONE FAMOUS ARTIST</span>            
+            Jason Wandrag <br>
+            <span>Senior Developer, Lecturer</span>            
           </h2>
 			   <button onclick="window.location.href='https://w3docs.com';">
       Click Here
@@ -208,17 +208,14 @@
     <div class="card">
       <div class="layer"></div>
       <div class="content">
-        <p class="testpar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Quis nostrum deleniti nemo repellat. 
-          Id, aliquid necessitatibus perferendis praesentium itaque doloribus molestias quaerat a deleniti distinctio voluptate, 
-          reprehenderit omnis, dolorem ratione.</p>
+        <p class="testpar">"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
         <div class="image">
           <img src="https://www.shareicon.net/data/128x128/2016/03/21/737194_people_512x512.png" alt="">
         </div>
         <div class="details">
           <h2>
-            Someone Famous 2 <br>
-            <span>SOMEONE FAMOUS WEB DEV</span>            
+            Yaseen Davids <br>
+            <span>Student Lecturer</span>            
           </h2>
         </div>
       </div>
@@ -228,16 +225,14 @@
     <div class="card">
       <div class="layer"></div>
       <div class="content">
-        <p class="textpar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum deleniti nemo repellat. 
-          Id, aliquid necessitatibus perferendis praesentium itaque doloribus molestias quaerat a deleniti distinctio voluptate, 
-          reprehenderit omnis, dolorem ratione.</p>
+        <p class="textpar">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone."</p>
         <div class="image">
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Female_portrait_placeholder_cropped.jpg" alt="">
         </div>
         <div class="details">
           <h2>
-            Someone Famous 3 <br>
-            <span>FRONT-END ENGINEER</span>            
+            Live Maweni <br>
+            <span>Colleague</span>            
           </h2>
         </div>
       </div>
