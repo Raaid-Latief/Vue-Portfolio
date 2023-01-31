@@ -136,6 +136,7 @@ body{
       font-family: 'Playfair Display', serif;
   color:  #CC9D18;
   text-shadow: 1px 1px 0px #ff0000;
+  font-weight: 500;
 
     font-size: 30pt;
 }

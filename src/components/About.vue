@@ -289,6 +289,7 @@ section[role="main"] {
   max-width: 1500px;
   margin: 0 auto;
   padding-top: 10%;
+  min-height: 60vh;
 }
 
 .row1 {
