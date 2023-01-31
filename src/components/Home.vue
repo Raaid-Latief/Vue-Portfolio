@@ -20,13 +20,14 @@
 <style scoped>
 
 .home{
-  background-image: url(https://i.postimg.cc/85qL5vN4/127068-statue-dark-Ancient-Greek-sculpture-simple-background.jpg);
+  background-image: url(https://i.postimg.cc/VNBHsjLF/matthew-feeney-yt-T1-T8c-EPm-A-unsplash.jpg);
   padding-top: 150px;
   background-repeat: no-repeat;
   background-attachment: fixed;
      background-size: cover;
      overflow-x: hidden;
      overflow-y: hidden;
+     /* background-position: 10% 100% 0% 50%; */
 
 }
 

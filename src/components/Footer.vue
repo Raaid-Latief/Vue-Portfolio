@@ -74,6 +74,7 @@ export default {
   width: 100%;
   bottom: 0;
   left: 0;
+  padding-top: 7vw;
 
 }
 
@@ -97,7 +98,10 @@ export default {
 }
 
 .footer .content a:hover {
-  border-bottom: 1px solid #9d18cc;
+  border-bottom: 2px  solid yellow;
+ border-block: 2px solid #cc9d18;
+
+ padding: 2px;
 }
 .footer .content router-link:hover {
     border-bottom: 1px solid#9d18cc;
@@ -111,12 +115,12 @@ export default {
 footer {
   text-align: center;
   margin-bottom: 2rem;
-  color: #9d18cc;
+  color: red;
 }
 
 footer hr {
   margin: 2rem 0;
-  color: #9d18cc;
+  color: grey;
 }
 
 @media (max-width: 767px) {

@@ -71,12 +71,12 @@
        
 
 
-            <div class="contact-btn row p-3">
-                <div class="col-md-6">
-                <button type="submit" class="btn btn-outline-success col-lg-6" target="_blank">Send</button>
+            <div class="contact-btn row">
+                <div class="col-md-6 col-xs-6">
+                <button type="submit" class="btn1 btn-outline-success col-lg-6" target="_blank">Send</button>
            </div>
-             <div class="col-md-6">
-           <button type="button" class="btn btn-outline-danger col-lg-6" data-bs-dismiss="modal">Close</button>
+             <div class="col-md-6 col-xs-6">
+           <button type="button" class="btn1 btn-outline-danger col-lg-6" data-bs-dismiss="modal">Close</button>
             </div>
             </div>
           
@@ -113,8 +113,8 @@ body{
 	width:60px;
 	height:60px;
 	bottom:35px;
-	right:14px;
-	background-color:#11BAAB;
+	right: 1vw;
+	background-color:red;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -127,8 +127,9 @@ body{
 
 
 .modal-content{
-    background-image: url(https://i.postimg.cc/G3X5xkjQ/gree-contact.jpg);
-
+    background-image: url(https://i.postimg.cc/GhzXfkm0/arno-senoner-UOBSag-Hcx-Bo-unsplash.jpg);
+    background-position: 0% 56%; 
+    padding-bottom: 10%;
 }
 
 .modal-title{
@@ -163,7 +164,7 @@ img{
 }
 
 .fa-phone-flip:hover{
-     color:#9d18cc;
+     color:yellow;
 
 }
 

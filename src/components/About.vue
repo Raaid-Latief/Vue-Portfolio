@@ -69,6 +69,13 @@
  </section>
 
 </div>
+<br>
+<br>
+<br>  
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -76,12 +83,12 @@
 
 <!-- Start of resume -->
 
-<div class="pt-5">
-<h1 class="timelinehead">A timeline of events</h1>
+<div class="">
+<h1 id="timelinehead">A timeline of events</h1>
 </div>
 
 
-<div class="container">
+<div class="container1">
    <div class="timeline-block timeline-block-right">
       <div class="marker"></div>
       <div class="timeline-content">
@@ -96,7 +103,7 @@
       <div class="timeline-content">
          <h3>2021 - 2022</h3>
          <span>Pointer South Africa</span>
-         <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved in vehicle tracking. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
+         <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
       </div>
    </div>
 
@@ -116,7 +123,7 @@
       <div class="timeline-content">
          <h3>Personal Achievements</h3>
          <span>Notable achievements</span>
-         <p>110KG bench press and 175KG squat, Completed basics of UX/UI Google Design Certificate. Prefect and class rep in Grade 12 in Highschool</p>
+         <p>Placed 3rd in a national powerlifting qualifier, Completed basics of UX/UI Google Design Certificate. Prefect and class rep in Grade 12 in Highschool</p>
       </div>
    </div>
 </div>
@@ -188,65 +195,61 @@
     
 
 </div> -->
-<div>
-   <div class="testimonials">
-    <!-- CARD 1 START-->
-    <div class="card">
-      <div class="layer"></div>
-      <div class="content">
-        <p class="testpar">"I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
-        <div class="image">
-          <img src="https://i.postimg.cc/QMJLwQFk/IMG-20220511-WA0005-adobe-express-removebg-preview.png" alt="">
-        </div>
-        <div class="details">
-          <h2>
-            Jason Wandrag <br>
-            <span>Senior Developer, Lecturer</span>            
-          </h2>
-          <a href="https://github.com/Raaid-Latief/portfolio-project" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
-			  
-        </div>
-      </div>
-    </div>
-    <!-- CARD 1 end-->
-    
-    <!-- CARD 2 START-->
-    <div class="card">
-      <div class="layer"></div>
-      <div class="content">
-        <p class="testpar">"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
-        <div class="image">
-          <img src="https://www.shareicon.net/data/128x128/2016/03/21/737194_people_512x512.png" alt="">
-        </div>
-        <div class="details">
-          <h2>
-            Yaseen Davids <br>
-            <span>Student Lecturer</span>            
-          </h2>
-        </div>
-      </div>
-    </div>
-    <!-- CARD 2 end-->
-    <!-- CARD 3 START-->
-    <div class="card">
-      <div class="layer"></div>
-      <div class="content">
-        <p class="textpar">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone."</p>
-        <div class="image">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Female_portrait_placeholder_cropped.jpg" alt="">
-        </div>
-        <div class="details">
-          <h2>
-            Live Maweni <br>
-            <span>Colleague</span>            
-          </h2>
-        </div>
-      </div>
-    </div>
-    <!-- CARD 3 end-->
-  </div>
 
+
+
+<!-- Testimonial final -->
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-12">
+      <div class="title-heading">
+       <h1>Testimonials</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class = "col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text ">"I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
+         <p class="card-name">Jason Wandrag</p>
+         <p class="card-title">Lecturer</p>
+          <div class="card-image" style="color:#bc3330;">
+            <i class="fa-brands fa-github fa-4x"></i>
+          </div>
+         </div>
+      </div>
+    </div>
+     <div class = "col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
+          <p class="card-name">Yaseen Davids</p>
+          <p class="card-title">Student Lecturer</p>
+          <div class="card-image" style="color:#bc3330;">
+            <i class="fa-brands fa-github fa-4x"></i>
+          </div>
+         </div>
+      </div>
+    </div>
+     <div class = "col-lg-4 col-sm-4 col-md-4 col-xl-4 col-xs-12">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone"</p>
+          <p class="card-name">Live Maweni</p>
+          <p class="card-title">Colleague</p>
+          <div class="card-image" style="color:#bc3330;">
+            <i class="fa-brands fa-github fa-4x"></i>
+          </div>
+         </div>
+      </div>
+    </div>
+
+
+  </div>
 </div>
+
 
 
     
@@ -271,16 +274,12 @@ name: "About",
 .summary {
    margin: auto;
   /* padding-block: 3px; */
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 20%;
+  padding-right: 20%;
    font-size: 1.5em;
-   font-family: 'Poppins', sans-serif;;
-}
-
-
-/* Passions */
-.mypassions{
-
+   font-family: 'Poppins', sans-serif;
+   font-weight: 650;
+   text-shadow: 1px 1px 0px #cc9d18;
 }
 
 
@@ -322,17 +321,19 @@ section[role="main"] {
 }
 
 .edu{
-   color: yellow;
+   color: #cc9d18;
    font-family: 'Poppins', sans-serif;
    padding-top: 3%;
    padding-left: 3%;
+   font-weight: 600;
 }
 
 .edu1{
-   color: yellow;
+   color: #cc9d18;
    font-family: 'Poppins', sans-serif;
    padding-top: 8%; 
    padding-left: 3%;  
+   font-weight: 600;
 }
 
 .ux{
@@ -485,22 +486,22 @@ body {
 
 h1 {
   padding-left: 14.7%;
-   font-weight: 5vw ;
+   font-weight: 900 ;
   color:  #cc9d18;
-     text-shadow: 1px 1px 0px #ff0000;
      font-family: 'Poppins', sans-serif;
+     padding-bottom: 20px;
      
      
 }
 
-h1 span {
+#timelinehead {
    font-weight: 600;
   color:  #cc9d18;
      text-shadow: 1px 1px 0px #ff0000;
      
 }
 
-.container {
+.container1 {
    width: 100%;
    padding: 50px 0;
    margin: auto;
@@ -510,7 +511,7 @@ h1 span {
    background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
 }
 
-.container:before {
+.container1:before {
    content: '';
    position: absolute;
    top: 0;
@@ -550,7 +551,7 @@ h1 span {
    height: 16px;
    border-radius: 50%;
    border: 2px solid #F5F7FA;
-   background: yellow;
+   background: #cc9d18;
    margin-top: 10px;
    z-index: 1
 }
@@ -565,24 +566,31 @@ h1 span {
    margin-top: 5px;
    margin-bottom: 5px;
    font-size: 25px;
-   font-weight: 500
+   font-weight: 500;
+   color: #cc9d18;
+   padding: 2px;
 }
 
 .timeline-content span {
-   font-size: 15px;
-   color: white;
+   font-size: 20px;
+   color: red;
+   text-shadow: 1px 1px 0px #cc9d18;
+   padding: 2px;
+
 }
 
 .timeline-content p {
-   font-size: 14px;
+   font-size: 1em;
    line-height: 1.5em;
    word-spacing: 1px;
    color: white;
+   font-weight: 350;
+   padding: 2px;
 }
 
 
 @media screen and (max-width: 768px) {
-   .container:before {
+   .container1:before {
       left: 8px;
       width: 2px;
    }
@@ -602,74 +610,52 @@ h1 span {
 
 
 /* Testimonial */
-.testimonials{
-	margin:200px auto 100px;
-	display:grid;
-	grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
-	grid-gap:20px;
+.card{
+      margin-bottom: 10px auto;
+      box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+      border-radius: 6px;
+      height: 100%;
+      transition: 0.5s;
+    padding-bottom: 10%;
+    }
+.card:hover .card-text{
+  color: yellow;
+
 }
-.testimonials .card{
-	position:relative;
-	width:350px;
-	margin:0 auto;
-	background:white;
-	padding:20px;
-	box-sizing: border-box;
-	text-align:center;
-	box-shadow:0 10px 40px rgba(0,0,0,.5);
-	overflow: hidden;
-}
-.testimonials .card .layer{
-	position: absolute;
-	top: calc(100% - 3px);
-	width:100%;
-	height:100%;
-	left:0;
-	background: red;
-	z-index:1;
-	transition:0.5s;
-}
-.testimonials .card:hover .layer{
-	top:0;
-}
-.testimonials .card .content{
-	position:relative;
-	z-index:2;
-}
-.testimonials .card .content p{
-	font-size:18px;
-	line-height:24px;
-	color:black;
-   font-family: 'Poppins', sans-serif;
+.card:hover .card{
+  color: red;
 }
 
-.testimonials .card:hover .content p{
-	font-size:18px;
-	line-height:24px;
-	color:yellow;
-   transition: 0.3s;
-}
-.testimonials .card .content .image{
-	width:100px;
-	height:100px;
-	margin: 0 auto;
-	border-radius:50%;
-	overflow:hidden;
-	
-}
-.testimonials .card .content .details h2{
-	font-size:15px;
-	color:#fff;
-}
-.testimonials .card .content .details h2 span{
-	color:#03a9f4;
-	font-size:12px;
-	transtion:0.5s;
-}
-.testimonials .card:hover .content .details h2 span{
-	color:#fff;
-}
 
+
+.card:hover {
+   box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+
+  background-color: red; 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+    .card-title, .card-name{
+      text-align: center;
+      color: #666666;
+      font-weight: bold;
+      font-size: 1.6em;
+
+    }
+    .card-text{
+          font-weight: 500;
+    color: #66686b;
+    }
+    .card-image{
+      text-align: center;
+      margin: 5vh 0;
+    }
+    .card-text{
+      text-align: center;
+    }
+
+ 
 .fa-brands{
     color: black;
    
@@ -677,7 +663,7 @@ h1 span {
 
 
 .fa-brands:hover{
-  color: yellow;
+  color: #cc9d18;
 }
 
 
