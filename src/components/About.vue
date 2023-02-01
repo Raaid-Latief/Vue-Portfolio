@@ -20,9 +20,14 @@
 </div>
 <!-- end of summary -->
 
-<div class="mypassions">
 
+<!-- Start of certifications -->
    <section role="main">
+
+      <div>
+         <h1>Education / Certfications</h1>
+      </div>
+
   <div class="row1">
         <div class="block">
          <div class="row">
@@ -68,7 +73,7 @@
   </div> -->
  </section>
 
-</div>
+
 <br>
 <br>
 <br>  
@@ -83,8 +88,8 @@
 
 <!-- Start of resume -->
 
-<div class="">
-<h1 id="timelinehead">A timeline of events</h1>
+<div>
+<h1>Timeline of events</h1>
 </div>
 
 
@@ -270,17 +275,19 @@ name: "About",
 
 .about1{
    margin: auto;
+   max-width: 140vh;
 }
 
 .summary {
-   margin: auto;
+
   /* padding-block: 3px; */
-  padding-left: 20%;
-  padding-right: 20%;
-   font-size: 1.5em;
+  padding-left: 12%;
+  padding-right: 12%;
+   font-size: 1.9vh;
    font-family: 'Poppins', sans-serif;
    font-weight: 650;
    text-shadow: 1px 1px 0px #cc9d18;
+   
 }
 
 
@@ -377,12 +384,7 @@ padding-left: 3%;
    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 /* About me box */
-.aboutHead{
-  font-family: 'Playfair Display', serif;
-   color:  #cc9d18;
-     text-shadow: 1px 1px 0px #ff0000;
-    font-size: 80pt;
-}
+
 #about-me-box {
 	margin: 50px 0;
 	background-color: #fff; 
@@ -487,11 +489,12 @@ body {
 }
 
 h1 {
-  padding-left: 14.7%;
+  /* padding-left: 14.7%; */
    font-weight: 900 ;
   color:  #cc9d18;
      font-family: 'Poppins', sans-serif;
      padding-bottom: 20px;
+     text-align: center;
      
      
 }

@@ -19,9 +19,14 @@
 </script>
 <style scoped>
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .home{
   background-image: url(https://i.postimg.cc/VNBHsjLF/matthew-feeney-yt-T1-T8c-EPm-A-unsplash.jpg);
-  padding-top: 150px;
+  /* padding-top: 150px; */
   background-repeat: no-repeat;
   background-attachment: fixed;
      background-size: cover;
@@ -30,23 +35,25 @@
 }
 
 
+
+
     
 h1{
     font-family: 'Playfair Display', serif;
-
+padding-top: 2.2%;
     color: #cc9d18;
   text-shadow: 1px 1px 0px #ff0000;
-    font-size: 6vw;
-
+    font-size: 3em;
+position: relative; top: 100px;
 }
 h2{
       font-family: 'Playfair Display', serif;
 
     color: #cc9d18;
       text-shadow: 1px 1px 0px #ff0000;
-
-    font-size: 2.9vw;
-    padding-bottom: 5%;
+      position: relative; top: 80px;
+    font-size: 2.3em;
+    padding-bottom: 8%;
 }
 
 .padding{
@@ -67,6 +74,7 @@ h2{
 }
 
 .custom-btn {
+  position: relative; top: 100px;
   padding: 10px 25px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -108,6 +116,7 @@ h2{
 }
 
 .fa-code{
+  position: relative; top: 110px;
   color: red;
 }
 
