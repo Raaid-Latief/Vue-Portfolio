@@ -27,8 +27,6 @@
      background-size: cover;
      overflow-x: hidden;
      overflow-y: hidden;
-     /* background-position: 10% 100% 0% 50%; */
-
 }
 
 
@@ -47,7 +45,8 @@ h2{
     color: #cc9d18;
       text-shadow: 1px 1px 0px #ff0000;
 
-    font-size: 2vw;
+    font-size: 2.9vw;
+    padding-bottom: 5%;
 }
 
 .padding{
@@ -69,7 +68,7 @@ h2{
 
 .custom-btn {
   padding: 10px 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   background: transparent;
   outline: none !important;
@@ -77,12 +76,12 @@ h2{
   transition: all 1.1s ease;
   position: relative;
   display: inline-block;
-  color: #18cc9d;
+  color: red;
 }
 .btn-2 {
   border: none;
-  border-bottom: 2px solid #18cc9d;
-  border-left: 2px solid #18cc9d;
+  border-bottom: 2px solid yellow;
+  border-left: 2px solid yellow;
 }
 .btn-2:before,
 .btn-2:after {
@@ -90,7 +89,7 @@ h2{
   content: "";
   right: 0;
   top: 0;
-  background: #18cc9d;
+  background: yellow;
   transition: all 0.3s ease;
 }
 .btn-2:before {
@@ -109,7 +108,7 @@ h2{
 }
 
 .fa-code{
-  color: black;
+  color: red;
 }
 
 </style>

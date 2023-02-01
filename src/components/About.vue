@@ -127,7 +127,7 @@
       </div>
    </div>
 </div>
-</div>
+
  
 <!-- Testimmonial Slider -->
 <!-- <div>
@@ -249,6 +249,7 @@
 
   </div>
 </div>
+</div>
 
 
 
@@ -289,7 +290,7 @@ section[role="main"] {
   max-width: 1500px;
   margin: 0 auto;
   padding-top: 10%;
-  min-height: 60vh;
+  min-height: 70vh;
 }
 
 .row1 {

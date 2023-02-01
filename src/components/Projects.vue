@@ -197,7 +197,7 @@ body {
     /* padding-left: 10%;
     padding-right: 10%; */
     /* background-color: black; */
-    box-shadow: 10px 10px;
+ 
   
 }
  * {
