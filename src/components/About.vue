@@ -106,7 +106,7 @@
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>2021 - 2022</h3>
+         <h3>2022 - 2021</h3>
          <span>Pointer South Africa</span>
          <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
       </div>
@@ -508,12 +508,13 @@ h1 {
 
 .container1 {
    width: 100%;
-   padding: 50px 0;
+ 
    margin: auto;
    position: relative;
    overflow: hidden;
+   object-fit: cover;
    /* box-shadow: 10px 10px grey; */
-   background-image: url(https://i.postimg.cc/RhGBKR1t/hadespatina.jpg);
+   /* background-image: url(https://i.postimg.cc/6pFhyP7g/sreehari-devadas-Ll-LDHWc-AXKI-unsplash.jpg); */
 }
 
 .container1:before {
@@ -524,7 +525,8 @@ h1 {
    width: 2px;
    height: 100%;
    background: #CCD1D9;
-   z-index: 1
+   z-index: 1;
+   background-image: url(https://i.postimg.cc/6pFhyP7g/sreehari-devadas-Ll-LDHWc-AXKI-unsplash.jpg);
 }
 
 .timeline-block {
@@ -574,6 +576,7 @@ h1 {
    font-weight: 500;
    color: #cc9d18;
    padding: 2px;
+   font-family: 'Poppins', sans-serif;
 }
 
 .timeline-content span {
@@ -581,6 +584,7 @@ h1 {
    color: red;
    text-shadow: 1px 1px 0px #cc9d18;
    padding: 2px;
+   font-family: 'Poppins', sans-serif;
 
 }
 
@@ -588,9 +592,11 @@ h1 {
    font-size: 1em;
    line-height: 1.5em;
    word-spacing: 1px;
-   color: white;
+   color: black;
    font-weight: 350;
    padding: 2px;
+   font-family: 'Poppins', sans-serif;
+
 }
 
 

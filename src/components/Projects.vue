@@ -170,7 +170,7 @@
     </div>
      <div class="p-3 text-center">
       <ul class="row">
-       <li class="col-lg-6 col-md-6 col-sml-6"><a href="https://transcendent-sprinkles-c04491.netlify.app/" target="_blank"><i class="fa-solid fa-globe fa-3x"></i></a></li>
+       <li class="col-lg-6 col-md-6 col-sml-6"><a href="https://transcendent-sprinkles-c04491.netlify.app/" target="_blank"><i class="fa-solid fa-link fa-3x"></i></a></li>
        <li  class="col-lg-6 col-md-6 col-sml-6"><a href="https://github.com/Raaid-Latief/portfolio-project" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a></li>
       </ul>
     </div>

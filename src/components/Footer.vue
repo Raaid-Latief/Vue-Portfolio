@@ -40,9 +40,7 @@
         </div>
         <div class="details">
           <h4 class="address">Address</h4>
-          <p><a href="https://www.google.com/maps/place/Life+Choices/@-33.9856643,18.4926986,15z/data=!4m5!3m4!1s0x0:0x9c746d268c8e0ad9!8m2!3d-33.9856643!4d18.4926986">
-            314 Imam Haron Rd, Lansdowne, Cape Town, 7780
-            </a>
+          <p><a href="#">            27 Honeyside Road West, Southern Suburbs</a>          
           </p>
           <h4 class="mobile">Mobile</h4>
           <p><a href="#">076 199 3236</a></p>
