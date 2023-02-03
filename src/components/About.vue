@@ -108,7 +108,7 @@
       <div class="timeline-content">
          <h3>2022 - 2021</h3>
          <span>Pointer South Africa</span>
-         <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
+         <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock</p>
       </div>
    </div>
 
